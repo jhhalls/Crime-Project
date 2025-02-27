@@ -4,6 +4,8 @@ from src.data.load_data import load_csv_files
 from src.data.clean_data import save_cleaned_data
 from src.data.load_data import load_csv_files  
 from src.data.preprocess import prepare_cleaned_data
+from scripts.summary import summarize_csv_folder
+
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 
@@ -11,7 +13,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 raw_data_path = "/Users/rohit/Downloads/My ML playlist/crime_project/data/raw"
 cleaned_data_path = "/Users/rohit/Downloads/My ML playlist/crime_project/data/cleaned_data"
 
-# Clean data
+# push Clean data to cleaned_data folder
 clean_data_dict, filenames = prepare_cleaned_data(raw_data_path, cleaned_data_path)
 
 print("✅ Cleaning and saving completed successfully!")
+
+# Summarize data
+summarize_csv_folder(cleaned_data_path)
