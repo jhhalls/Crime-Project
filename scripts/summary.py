@@ -2,117 +2,152 @@ import os
 import pandas as pd
 import numpy as np
 
-def summarize_csv_folder(folder_path, generate_correlation=False):
+import os
+import pandas as pd
+import numpy as np
+
+import os
+import pandas as pd
+import numpy as np
+
+def generate_csv_summary(input_folder_path, output_folder_path, include_correlation_matrix=False):
     """
-    Summarizes all CSV files in a folder on a column basis.
+    Generates a summary of all CSV files in a folder on a column-wise basis.
     
     Parameters:
-    folder_path (str): Path to the folder containing CSV files.
-    generate_correlation (bool): Whether to generate a correlation matrix for numerical columns.
+    - input_folder_path (str): Path to the folder containing CSV files.
+    - output_folder_path (str): Path where summary reports will be saved.
+    - include_correlation_matrix (bool): If True, generates a correlation matrix for numerical columns.
     
     Outputs:
-    - summary_report.csv: Column-wise statistics for each file.
-    - schema_check.csv: Compares column names across files.
-    - dtype_consistency.csv: Checks if columns have different data types across files.
-    - correlation_matrix.csv (Optional): Correlation between numerical columns across files.
+    - column_summary.csv: Provides statistics for each column in every file.
+    - schema_comparison.csv: Compares column names across all CSV files.
+    - datatype_consistency.csv: Checks if columns have different data types across files.
+    - correlation_matrix.csv (Optional): Correlation analysis of numerical columns.
     """
+
+    # Ensure output directory exists
+    os.makedirs(output_folder_path, exist_ok=True)
+
+    column_statistics_list = []   # Stores summary statistics for each column
+    file_column_mapping = {}      # Stores column names for each file
+    column_datatype_mapping = {}  # Stores data types for consistency check
+    dataframe_collection = []     # Stores data for correlation analysis (if enabled)
+
+    # Get list of CSV files
+    csv_files = [f for f in os.listdir(input_folder_path) if f.endswith(".csv")]
+
+    if not csv_files:
+        print("⚠️ No CSV files found in the folder.")
+        return
     
-    summary_list = []   # Stores column-wise statistics
-    schema_dict = {}    # Stores schema of each file
-    data_types_dict = {} # Stores data types for consistency check
-    all_dataframes = []  # Stores data for correlation analysis (if enabled)
+    # Loop through each CSV file in the input folder
+    for filename in csv_files:
+        file_path = os.path.join(input_folder_path, filename)
 
-    # Loop through each file in the folder
-    for file in os.listdir(folder_path):
-        if file.endswith(".csv"):  # Process only CSV files
-            file_path = os.path.join(folder_path, file)
-            
+        try:
             # Read the CSV file
-            df = pd.read_csv(file_path)
-            
-            print(f"Processing file: {file}")
-            
-            # Store schema info (column names)
-            schema_dict[file] = set(df.columns)
-            
-            # Store data type info
-            for col in df.columns:
-                if col not in data_types_dict:
-                    data_types_dict[col] = {}
-                data_types_dict[col][file] = str(df[col].dtype)
-            
-            # Append for correlation analysis
-            if generate_correlation:
-                all_dataframes.append(df)
+            dataframe = pd.read_csv(file_path)
 
-            # Process each column
-            for col in df.columns:
-                col_data = df[col]
-                
-                print(f"Processing column: {col}")
-                
-                # Calculate outlier threshold using IQR
-                if pd.api.types.is_numeric_dtype(col_data):
-                    Q1 = col_data.quantile(0.25)
-                    Q3 = col_data.quantile(0.75)
-                    IQR = Q3 - Q1
-                    lower_bound = Q1 - 1.5 * IQR
-                    upper_bound = Q3 + 1.5 * IQR
-                    outlier_count = ((col_data < lower_bound) | (col_data > upper_bound)).sum()
+            # Skip empty files
+            if dataframe.empty:
+                print(f"⚠️ Skipping empty file: {filename}")
+                continue
+
+            # Store column names for schema comparison
+            file_column_mapping[filename] = set(dataframe.columns)
+
+            # Store data types for consistency check
+            for column_name in dataframe.columns:
+                if column_name not in column_datatype_mapping:
+                    column_datatype_mapping[column_name] = {}
+                column_datatype_mapping[column_name][filename] = str(dataframe[column_name].dtype)
+
+            # Append data for correlation analysis
+            if include_correlation_matrix:
+                dataframe_collection.append(dataframe)
+
+            # Process each column in the file
+            for column_name in dataframe.columns:
+                column_data = dataframe[column_name]
+
+                # Skip completely empty columns
+                if column_data.count() == 0:
+                    continue
+
+                # Calculate outlier count using Interquartile Range (IQR)
+                if pd.api.types.is_numeric_dtype(column_data):
+                    first_quartile = column_data.quantile(0.25)
+                    third_quartile = column_data.quantile(0.75)
+                    interquartile_range = third_quartile - first_quartile
+                    lower_threshold = first_quartile - 1.5 * interquartile_range
+                    upper_threshold = third_quartile + 1.5 * interquartile_range
+                    outlier_count = ((column_data < lower_threshold) | (column_data > upper_threshold)).sum()
                 else:
                     outlier_count = None
 
-                # Collect column-level statistics
-                summary_list.append({
-                    "File Name": file,
-                    "Column": col,
-                    "Data Type": col_data.dtype,
-                    "Non-Null Count": col_data.count(),
-                    "Mean": col_data.mean() if pd.api.types.is_numeric_dtype(col_data) else None,
-                    "Median": col_data.median() if pd.api.types.is_numeric_dtype(col_data) else None,
-                    "Std Dev": col_data.std() if pd.api.types.is_numeric_dtype(col_data) else None,
-                    "Min": col_data.min() if pd.api.types.is_numeric_dtype(col_data) else None,
-                    "Max": col_data.max() if pd.api.types.is_numeric_dtype(col_data) else None,
-                    "Unique Values Count": col_data.nunique(),
-                    "Most Frequent Value": col_data.mode()[0] if not col_data.mode().empty else None,
-                    "Missing Values Count": col_data.isnull().sum(),
+                # Collect column-level summary statistics
+                column_statistics_list.append({
+                    "File Name": filename,
+                    "Column Name": column_name,
+                    "Data Type": column_data.dtype,
+                    "Non-Null Count": column_data.count(),
+                    "Mean": column_data.mean() if pd.api.types.is_numeric_dtype(column_data) else None,
+                    "Median": column_data.median() if pd.api.types.is_numeric_dtype(column_data) else None,
+                    "Standard Deviation": column_data.std() if pd.api.types.is_numeric_dtype(column_data) else None,
+                    "Minimum Value": column_data.min() if pd.api.types.is_numeric_dtype(column_data) else None,
+                    "Maximum Value": column_data.max() if pd.api.types.is_numeric_dtype(column_data) else None,
+                    "Unique Value Count": column_data.nunique(),
+                    "Most Frequent Value": column_data.mode()[0] if not column_data.mode().empty else None,
+                    "Missing Value Count": column_data.isnull().sum(),
                     "Outlier Count": outlier_count
                 })
 
-    # Create a summary DataFrame and save it
-    summary_df = pd.DataFrame(summary_list)
-    summary_df.to_csv("summary_report.csv", index=False)
+        except Exception as e:
+            print(f"❌ Error processing file {filename}: {e}")
 
-    print("✅ Summary Report saved as summary_report.csv")
+    # Check if summary list is empty
+    if not column_statistics_list:
+        print("⚠️ No valid data found in CSV files. No summary will be generated.")
+        return
+
+    # Create a summary DataFrame and save it
+    column_summary_df = pd.DataFrame(column_statistics_list)
+    column_summary_file = os.path.join(output_folder_path, "column_summary.csv")
+    column_summary_df.to_csv(column_summary_file, index=False)
+    print(f"✅ Column Summary saved at: {column_summary_file}")
 
     # Schema Consistency Check
-    schema_check = pd.DataFrame.from_dict(schema_dict, orient="index").fillna("")
-    schema_check.to_csv("schema_check.csv")
-
-    print("✅ Schema Consistency Check saved as schema_check.csv")
+    schema_comparison_df = pd.DataFrame.from_dict(file_column_mapping, orient="index").fillna("")
+    schema_comparison_file = os.path.join(output_folder_path, "schema_comparison.csv")
+    schema_comparison_df.to_csv(schema_comparison_file)
+    print(f"✅ Schema Comparison saved at: {schema_comparison_file}")
 
     # Data Type Consistency Check
-    dtype_df = []
-    for col, files in data_types_dict.items():
-        unique_types = set(files.values())
-        dtype_df.append({
-            "Column": col,
-            "Files with Different Types": len(unique_types) > 1,
-            "Data Types": files
+    datatype_consistency_records = []
+    for column_name, file_mapping in column_datatype_mapping.items():
+        unique_data_types = set(file_mapping.values())
+        datatype_consistency_records.append({
+            "Column Name": column_name,
+            "Inconsistent Data Types Across Files": len(unique_data_types) > 1,
+            "Data Types by File": file_mapping
         })
 
-    dtype_check_df = pd.DataFrame(dtype_df)
-    dtype_check_df.to_csv("dtype_consistency.csv", index=False)
+    datatype_consistency_df = pd.DataFrame(datatype_consistency_records)
+    datatype_consistency_file = os.path.join(output_folder_path, "datatype_consistency.csv")
+    datatype_consistency_df.to_csv(datatype_consistency_file, index=False)
+    print(f"✅ Data Type Consistency Report saved at: {datatype_consistency_file}")
 
-    print("✅ Data Type Consistency Check saved as dtype_consistency.csv")
-
-    # Generate correlation matrix if enabled
-    if generate_correlation and all_dataframes:
-        combined_df = pd.concat(all_dataframes, ignore_index=True)
-        correlation_matrix = combined_df.corr()
-        correlation_matrix.to_csv("correlation_matrix.csv")
-        print("✅ Correlation Matrix saved as correlation_matrix.csv")
-    # Display Outputs
-    print("✅ Summary Report saved as summary_report.csv")
-    print("✅ Schema Consistency Check saved as schema_check.csv")
-    print("✅ Data Type Consistency Check saved as dtype_consistency.csv")
+    # Generate correlation matrix if requested
+    if include_correlation_matrix and dataframe_collection:
+        combined_dataframe = pd.concat(dataframe_collection, ignore_index=True)
+        
+        # Ensure at least 2 numeric columns exist for correlation
+        numeric_columns = combined_dataframe.select_dtypes(include=[np.number])
+        if numeric_columns.shape[1] < 2:
+            print("⚠️ Not enough numerical columns for correlation analysis. Skipping correlation matrix.")
+        else:
+            correlation_matrix = numeric_columns.corr()
+            correlation_matrix_file = os.path.join(output_folder_path, "correlation_matrix.csv")
+            correlation_matrix.to_csv(correlation_matrix_file)
+            print(f"✅ Correlation Matrix saved at: {correlation_matrix_file}")
