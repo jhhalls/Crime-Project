@@ -1,11 +1,11 @@
 import pandas as pd
 import os
+import re
 
 def clean_whitespace(df):
     """
     Removes leading and trailing spaces from column names and all elements in a DataFrame,
-    irrespective of their datatype. This is necessary because some CSV files may have
-    leading or trailing spaces in the column names or data.
+    irrespective of their datatype.
 
     Args:
         df (pd.DataFrame): Input DataFrame.
@@ -13,33 +13,51 @@ def clean_whitespace(df):
     Returns:
         pd.DataFrame: Cleaned DataFrame with stripped whitespace.
     """
-    # Remove leading and trailing spaces from column names
     df.columns = df.columns.str.strip()
-
-    # Remove leading and trailing spaces from all elements in the DataFrame
-    # This includes strings, floats, integers, etc.
-    # We use the applymap function to apply the lambda function to every element
-    # in the DataFrame. The lambda function takes a value and returns the
-    # stripped string if the value is not a NaN, otherwise it returns the
-    # original value.
     df = df.applymap(lambda x: str(x).strip() if pd.notna(x) else x)
-
     return df
+
+
+def remove_leading_numbers(filename):
+    """
+    Removes leading numbers and any following underscores from a filename 
+    while preserving the file extension.
+
+    Args:
+        filename (str): Original filename.
+
+    Returns:
+        str: Cleaned filename.
+    """
+    name, ext = os.path.splitext(filename)  # Split filename and extension
+    cleaned_name = re.sub(r'^\d+_?', '', name).lstrip()  # Remove leading numbers + optional underscore
+    return f"{cleaned_name}{ext}"  # Reconstruct filename with extension
 
 def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
     """
-    Saves cleaned DataFrames to the specified directory.
+    Saves cleaned DataFrames to the specified directory with renamed files
+    (removing leading numbers) and stores the list of cleaned filenames.
 
     Args:
         data_dict (dict): Dictionary where keys are filenames and values are DataFrames.
         output_dir (str): Directory to save cleaned data.
     """
-    # Create the output directory if it doesn't exist
     if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+        os.makedirs(output_dir)  # Create the folder if it doesn't exist
 
-    # Iterate over the data dictionary and save each DataFrame
+    cleaned_filenames = []  # Store new filenames
+
     for file_name, df in data_dict.items():
-        cleaned_file_path = os.path.join(output_dir, file_name)
+        new_file_name = remove_leading_numbers(file_name)  # Rename file
+        cleaned_file_path = os.path.join(output_dir, new_file_name)
+        
         df.to_csv(cleaned_file_path, index=False)  # Save CSV without index
-        print(f"Saved cleaned file: {cleaned_file_path}")
+        cleaned_filenames.append(new_file_name)  # Store new filename
+        print(f"✅ Saved cleaned file: {cleaned_file_path}")
+
+    # Save cleaned filenames to a text file
+    list_file_path = os.path.join(output_dir, "cleaned_file_list.txt")
+    with open(list_file_path, "w") as file:
+        file.writelines("\n".join(cleaned_filenames))
+
+    print(f"📜 List of cleaned files saved to: {list_file_path}")

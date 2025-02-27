@@ -41,8 +41,3 @@ Data cleaning is a crucial step before analysis or modeling.
 
 8.  Normalize & Scale Data (if required for ML)
 	•	Apply Min-Max Scaling or Standardization for numerical features:
-
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
-scaler = MinMaxScaler()
-df[['column']] = scaler.fit_transform(df[['column']])
-
