@@ -46,6 +46,3 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 scaler = MinMaxScaler()
 df[['column']] = scaler.fit_transform(df[['column']])
 
-
-
-Would you like a code walkthrough for any of these steps? 🚀
