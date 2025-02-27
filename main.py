@@ -11,4 +11,5 @@ csv_directory = "/Users/rohit/Downloads/My ML playlist/crime_project/data/raw/ra
 
 raw_data, instructions = process_csv_files(csv_directory)
 print(f"The raw data is:\n{raw_data}")
-print(f"Follow the below instructions on how to access the data files :\n{instructions}")
+print(f"\nFollow the below instructions on how to access the data files :\n{instructions}")
+
