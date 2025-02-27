@@ -10,7 +10,7 @@ successful_files = []
 problematic_files = []
 file_issues = {}  # Store issues per file
 
-def process_csv_files(csv_directory, expected_columns=22):
+def load_csv_files(csv_directory, expected_columns=22):
     """
     Reads all CSV files in a given directory, detects problematic lines with issue tags,
     handles errors, and returns a dictionary of DataFrames along with access instructions.
