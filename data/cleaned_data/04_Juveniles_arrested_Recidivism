@@ -1,4 +1,4 @@
-Area_Name,Year,Sub_Group_Name,Recidivism_New_Delinquent,Recidivism_Old_Delinquent,Recidivism_Total
+area_name,year,sub_group_name,recidivism_new_delinquent,recidivism_old_delinquent,recidivism_total
 Andaman & Nicobar Islands,2001,4. Recidivism,16,0,16
 Andhra Pradesh,2001,4. Recidivism,1392,173,1565
 Arunachal Pradesh,2001,4. Recidivism,130,7,137

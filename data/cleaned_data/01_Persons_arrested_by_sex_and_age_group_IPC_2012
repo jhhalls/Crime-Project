@@ -1,4 +1,4 @@
-STATE/UT,CRIME HEAD,Male Below 18 Years,Female Below 18 Years,Male Between 18-30 Years,Female Between 18-30 Years,Male Between 30-45 Years,Female Between 30-45 Years,Male Between 45-60 Years,Female Between 45-60 Years,Male Above 60 Years,Female Above 60 Years,Male Total,Female Total,Grand Total
+state/ut,crime_head,male_below_18_years,female_below_18_years,male_between_18-30_years,female_between_18-30_years,male_between_30-45_years,female_between_30-45_years,male_between_45-60_years,female_between_45-60_years,male_above_60_years,female_above_60_years,male_total,female_total,grand_total
 ANDHRA PRADESH,MURDER (SECTION 302 IPC),65,3,2054,187,1866,216,919,104,85,10,4989,520,5509
 ARUNACHAL PRADESH,MURDER (SECTION 302 IPC),0,0,53,0,52,2,6,0,0,0,111,2,113
 ASSAM,MURDER (SECTION 302 IPC),38,0,584,23,738,19,238,2,8,0,1606,44,1650

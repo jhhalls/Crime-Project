@@ -1,4 +1,4 @@
-STATE/UT,DISTRICT,Year,Murder,Rape,Kidnapping and Abduction,Foeticide,Abetment of suicide,Exposure and abandonment,Procuration of minor girls,Buying of girls for prostitution,Selling of girls for prostitution,Prohibition of child marriage act,Other Crimes,Total
+state/ut,district,year,murder,rape,kidnapping_and_abduction,foeticide,abetment_of_suicide,exposure_and_abandonment,procuration_of_minor_girls,buying_of_girls_for_prostitution,selling_of_girls_for_prostitution,prohibition_of_child_marriage_act,other_crimes,total
 ANDHRA PRADESH,ADILABAD,2001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
 ANDHRA PRADESH,ANANTAPUR,2001,19.0,12.0,29.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,66
 ANDHRA PRADESH,CHITTOOR,2001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
@@ -3340,7 +3340,6 @@ NAGALAND,PHEK,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
 NAGALAND,TUENSANG,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
 NAGALAND,WOKHA,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
 NAGALAND,ZUNHEBOTO,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
-NAGALAND,TOTAL,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
 NAGALAND,TOTAL,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0
 ODISHA,ANGUL,2005,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,17
 ODISHA,BALASORE,2005,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0

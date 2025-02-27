@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,PT_1_3_Years,PT_3_5_Years,PT_5_10_Years,PT_6_12_Months,PT_Less_than_6_Months,PT_Over_10_Years,PT_Total
+area_name,year,group_name,sub_group_name,pt_1_3_years,pt_3_5_years,pt_5_10_years,pt_6_12_months,pt_less_than_6_months,pt_over_10_years,pt_total
 Andhra Pradesh,2004,PT1. District/Session Judge,1. District/Session Judge,1931.0,805.0,196.0,293.0,44.0,57.0,3326.0
 Arunachal Pradesh,2004,PT1. District/Session Judge,1. District/Session Judge,13.0,6.0,0.0,5.0,0.0,0.0,24.0
 Assam,2004,PT1. District/Session Judge,1. District/Session Judge,582.0,444.0,170.0,127.0,69.0,22.0,1414.0

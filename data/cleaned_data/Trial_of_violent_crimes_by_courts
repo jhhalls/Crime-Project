@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,Trial_of_Violent_Crimes_by_Courts_By_Confession,Trial_of_Violent_Crimes_by_Courts_By_trial,Trial_of_Violent_Crimes_by_Courts_Total
+area_name,year,group_name,sub_group_name,trial_of_violent_crimes_by_courts_by_confession,trial_of_violent_crimes_by_courts_by_trial,trial_of_violent_crimes_by_courts_total
 Andhra Pradesh,2001,TVC- Arson,10. Arson,20.0,517.0,537.0
 Arunachal Pradesh,2001,TVC- Arson,10. Arson,0.0,3.0,3.0
 Assam,2001,TVC- Arson,10. Arson,5.0,142.0,147.0

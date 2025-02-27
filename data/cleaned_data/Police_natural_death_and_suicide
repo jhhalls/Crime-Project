@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Age_18_25_Yrs,Age_25_35_Yrs,Age_35_45_Yrs,Age_45_55_Yrs,Age_Above_55_Yrs,Age_Total
+area_name,year,group_name,age_18_25_yrs,age_25_35_yrs,age_35_45_yrs,age_45_55_yrs,age_above_55_yrs,age_total
 Andaman & Nicobar Islands,2001,Natural Deaths of Policemen while in Service,0,0,0,0,1,1
 Andhra Pradesh,2001,Natural Deaths of Policemen while in Service,7,39,100,76,11,233
 Arunachal Pradesh,2001,Natural Deaths of Policemen while in Service,0,2,0,0,0,2

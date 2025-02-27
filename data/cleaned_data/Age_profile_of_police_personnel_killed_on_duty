@@ -1,4 +1,4 @@
-Area_Name,Year,Age_18_25_Yrs,Age_25_35_Yrs,Age_35_45_Yrs,Age_45_55_Yrs,Age_Above_55_Yrs,Age_Total
+area_name,year,age_18_25_yrs,age_25_35_yrs,age_35_45_yrs,age_45_55_yrs,age_above_55_yrs,age_total
 Jammu & Kashmir,2001,52,67,24,7,0,150
 Chhattisgarh,2010,8,54,18,2,0,82
 Jammu & Kashmir,2004,4,48,9,4,0,65

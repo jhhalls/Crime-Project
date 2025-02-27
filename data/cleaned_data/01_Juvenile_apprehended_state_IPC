@@ -1,4 +1,4 @@
-STATE/UT,Year,CRIME,Boys 7-12 Years,Girls 7-12 Years,Boys 12-16 Years,Girls 12-16 Years,Boys 16-18 Years,Girls 16-18 Years,Total for boys all Age Groups,Total for girls all Age Groups,Grand total
+state/ut,year,crime,boys_7-12_years,girls_7-12_years,boys_12-16_years,girls_12-16_years,boys_16-18_years,girls_16-18_years,total_for_boys_all_age_groups,total_for_girls_all_age_groups,grand_total
 Andhra Pradesh,2001,Murder,3,0,7,0,5,0,15,0,15
 Andhra Pradesh,2001,Attempt to Commit Murder,2,0,0,0,11,0,13,0,13
 Andhra Pradesh,2001,C H Not amounting to Murder,0,0,0,0,0,0,0,0,0

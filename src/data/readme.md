@@ -41,3 +41,4 @@ Data cleaning is a crucial step before analysis or modeling.
 
 8.  Normalize & Scale Data (if required for ML)
 	•	Apply Min-Max Scaling or Standardization for numerical features:
+a

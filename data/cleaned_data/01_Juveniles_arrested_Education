@@ -1,4 +1,4 @@
-Area_Name,Year,Sub_Group_Name,Education_Above_Primary_but_below_Matric_or_Higher_Secondary,Education_Illiterate,Education_Matric_or_Higher_Secondary_&_above,Education_Total,Education_Upto_primary
+area_name,year,sub_group_name,education_above_primary_but_below_matric_or_higher_secondary,education_illiterate,education_matric_or_higher_secondary_&_above,education_total,education_upto_primary
 Andaman & Nicobar Islands,2001,1. Education,12,0,0,16,4
 Andhra Pradesh,2001,1. Education,178,640,64,1565,683
 Arunachal Pradesh,2001,1. Education,39,16,12,137,70

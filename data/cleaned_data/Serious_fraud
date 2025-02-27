@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,Loss_of_Property_1_10_Crores,Loss_of_Property_10_25_Crores,Loss_of_Property_25_50_Crores,Loss_of_Property_50_100_Crores,Loss_of_Property_Above_100_Crores
+area_name,year,group_name,sub_group_name,loss_of_property_1_10_crores,loss_of_property_10_25_crores,loss_of_property_25_50_crores,loss_of_property_50_100_crores,loss_of_property_above_100_crores
 Andhra Pradesh,2001,Serious Fraud - Cheating,2. Cheating,4.0,0.0,0.0,0.0,0.0
 Arunachal Pradesh,2001,Serious Fraud - Cheating,2. Cheating,0.0,0.0,0.0,0.0,0.0
 Assam,2001,Serious Fraud - Cheating,2. Cheating,0.0,0.0,0.0,0.0,0.0

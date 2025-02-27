@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,Victims_Above_50_Yrs,Victims_Total,Victims_Upto_10_15_Yrs,Victims_Upto_10_Yrs,Victims_Upto_15_18_Yrs,Victims_Upto_18_30_Yrs,Victims_Upto_30_50_Yrs
+area_name,year,group_name,sub_group_name,victims_above_50_yrs,victims_total,victims_upto_10_15_yrs,victims_upto_10_yrs,victims_upto_15_18_yrs,victims_upto_18_30_yrs,victims_upto_30_50_yrs
 Andaman & Nicobar Islands,2001,Murder - Female Victims,2. Female Victims,,6,,,,4.0,2.0
 Andhra Pradesh,2001,Murder - Female Victims,2. Female Victims,67.0,607,15.0,38.0,43.0,269.0,175.0
 Arunachal Pradesh,2001,Murder - Female Victims,2. Female Victims,2.0,16,0.0,0.0,0.0,10.0,4.0

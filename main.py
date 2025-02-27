@@ -1,23 +1,17 @@
 import sys
 import os
+from src.data.load_data import load_csv_files
+from src.data.clean_data import save_cleaned_data
+from src.data.load_data import load_csv_files  
+from src.data.preprocess import prepare_cleaned_data
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 
-from src.data.load_data import load_csv_files
-from src.data.data_cleaning import clean_whitespace, save_cleaned_data
-from src.data.load_data import load_csv_files  
-
-# path to csv file location
-csv_directory = "/Users/rohit/Downloads/My ML playlist/crime_project/data/raw"
-
-raw_data, instructions = load_csv_files(csv_directory)  # Dictionary of {filename: DataFrame}
-print(f"The raw data is:\n{raw_data}")
-print(f"\nFollow the below instructions on how to access the data files :\n{instructions}")
+# Define paths
+raw_data_path = "/Users/rohit/Downloads/My ML playlist/crime_project/data/raw"
+cleaned_data_path = "/Users/rohit/Downloads/My ML playlist/crime_project/data/cleaned_data"
 
 # Clean data
-cleaned_data = {file: clean_whitespace(df) for file, df in raw_data.items()}
-
-# Save cleaned data to 'data/cleaned_data'
-save_cleaned_data(cleaned_data)
+clean_data_dict, filenames = prepare_cleaned_data(raw_data_path, cleaned_data_path)
 
 print("✅ Cleaning and saving completed successfully!")

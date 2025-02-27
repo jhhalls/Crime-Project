@@ -1,4 +1,4 @@
-Area_Name,Year,Subgroup,Rape_Cases_Reported,Victims_Above_50_Yrs,Victims_Between_10-14_Yrs,Victims_Between_14-18_Yrs,Victims_Between_18-30_Yrs,Victims_Between_30-50_Yrs,Victims_of_Rape_Total,Victims_Upto_10_Yrs
+area_name,year,subgroup,rape_cases_reported,victims_above_50_yrs,victims_between_10-14_yrs,victims_between_14-18_yrs,victims_between_18-30_yrs,victims_between_30-50_yrs,victims_of_rape_total,victims_upto_10_yrs
 Andaman & Nicobar Islands,2001,Total Rape Victims,3,0,0,3,0,0,3,0
 Andaman & Nicobar Islands,2001,Victims of Incest Rape,1,0,0,1,0,0,1,0
 Andaman & Nicobar Islands,2001,Victims of Other Rape,2,0,0,2,0,0,2,0

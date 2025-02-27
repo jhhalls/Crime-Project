@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,PH_Houses_Provided_by_Department,PH_Houses_provided_on_LeaseRentGPRA,PH_Sanctioned_Strength
+area_name,year,group_name,sub_group_name,ph_houses_provided_by_department,ph_houses_provided_on_leaserentgpra,ph_sanctioned_strength
 Andaman & Nicobar Islands,2001,PH_Officers (DySP & Above),1. For Officers (Dy.SP & Above),7.0,,17
 Andhra Pradesh,2001,PH_Officers (DySP & Above),1. For Officers (Dy.SP & Above),102.0,189.0,569
 Arunachal Pradesh,2001,PH_Officers (DySP & Above),1. For Officers (Dy.SP & Above),81.0,11.0,92

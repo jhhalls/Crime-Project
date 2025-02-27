@@ -1,4 +1,4 @@
-STATE/UT,CRIME HEAD,Male Below 18 Years,Female Below 18 Years,Male Between 18-30 Years,Female Between 18-30 Years,Male Between 30-45 Years,Female Between 30-45 Years,Male Between 45-60 Years,Female Between 45-60 Years,Male Above 60 Years,Female Above 60 Years,Male Total,Female Total,Grand Total
+state/ut,crime_head,male_below_18_years,female_below_18_years,male_between_18-30_years,female_between_18-30_years,male_between_30-45_years,female_between_30-45_years,male_between_45-60_years,female_between_45-60_years,male_above_60_years,female_above_60_years,male_total,female_total,grand_total
 ANDHRA PRADESH,ARMS ACT,4,0,262,0,231,0,46,0,6,0,549,0,549
 ARUNACHAL PRADESH,ARMS ACT,0,0,10,0,4,0,0,0,0,0,14,0,14
 ASSAM,ARMS ACT,2,0,290,2,249,1,31,0,0,0,572,3,575

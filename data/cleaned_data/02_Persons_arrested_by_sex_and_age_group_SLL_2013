@@ -1,4 +1,4 @@
-STATE/UT,CRIME HEAD,Male Below 18 Years,Female Below 18 Years,Male Between 18-30 Years,Female Between 18-30 Years,Male Between 30-45 Years,Female Between 30-45 Years,Male Between 45-60 Years,Female Between 45-60 Years,Male Above 60 Years,Female Above 60 Years,Male Total,Female Total,Grand Total
+state/ut,crime_head,male_below_18_years,female_below_18_years,male_between_18-30_years,female_between_18-30_years,male_between_30-45_years,female_between_30-45_years,male_between_45-60_years,female_between_45-60_years,male_above_60_years,female_above_60_years,male_total,female_total,grand_total
 Andhra Pradesh,"Antiquity & Art Treasures Act, 1972",0,0,7,0,16,0,5,1,0,0,28,1,29
 Arunachal Pradesh,"Antiquity & Art Treasures Act, 1972",0,0,0,0,0,0,0,0,0,0,0,0,0
 Assam,"Antiquity & Art Treasures Act, 1972",0,0,0,0,0,0,0,0,0,0,0,0,0

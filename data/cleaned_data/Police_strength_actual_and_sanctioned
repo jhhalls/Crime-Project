@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,Rank_All_Ranks_Total,Rank_ASI_Equivalent,Rank_ASPDySPAssttCommandant,Rank_Below_HC_and_Above_Constables,Rank_Constables,Rank_DGAddl_DG,Rank_DIG,Rank_Head_Constables,Rank_IGSplIG,Rank_Inspectors_Equivalent,Rank_SI_Equivalent,Rank_SSPSPAddlSPCommandant
+area_name,year,group_name,sub_group_name,rank_all_ranks_total,rank_asi_equivalent,rank_aspdyspassttcommandant,rank_below_hc_and_above_constables,rank_constables,rank_dgaddl_dg,rank_dig,rank_head_constables,rank_igsplig,rank_inspectors_equivalent,rank_si_equivalent,rank_sspspaddlspcommandant
 Andaman & Nicobar Islands,2001,Actual Police Strength - Armed Police,A2. Acual Armed Police (Incl. Women Police),766,7,2,0,646,0,1,84,0,6,20,0
 Andhra Pradesh,2001,Actual Police Strength - Armed Police,A2. Acual Armed Police (Incl. Women Police),12510,433,56,0,8742,0,0,2864,0,132,270,13
 Arunachal Pradesh,2001,Actual Police Strength - Armed Police,A2. Acual Armed Police (Incl. Women Police),2232,14,15,169,1645,0,0,322,0,19,45,3

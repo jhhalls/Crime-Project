@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,Cases_Property_Recovered,Cases_Property_Stolen,Value_of_Property_Recovered,Value_of_Property_Stolen
+area_name,year,group_name,sub_group_name,cases_property_recovered,cases_property_stolen,value_of_property_recovered,value_of_property_stolen
 Andaman & Nicobar Islands,2001,Cattle - Property,2. Cattle,0,1,0,1000
 Andhra Pradesh,2001,Cattle - Property,2. Cattle,448,580,6490596,7233876
 Arunachal Pradesh,2001,Cattle - Property,2. Cattle,22,34,135500,704500

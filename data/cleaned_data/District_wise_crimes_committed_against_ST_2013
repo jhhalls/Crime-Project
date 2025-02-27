@@ -1,4 +1,4 @@
-STATE/UT,DISTRICT,Year,Murder,Rape,Kidnapping Abduction,Dacoity,Robbery,Arson,Hurt,Protection of Civil Rights (PCR) Act,Prevention of atrocities (POA) Act,Other Crimes Against STs
+state/ut,district,year,murder,rape,kidnapping_abduction,dacoity,robbery,arson,hurt,protection_of_civil_rights_(pcr)_act,prevention_of_atrocities_(poa)_act,other_crimes_against_sts
 Andhra Pradesh,ADILABAD,2013,0,7,0,0,0,0,2,0,6,25
 Andhra Pradesh,ANANTAPUR,2013,0,0,0,0,0,0,3,0,1,9
 Andhra Pradesh,CHITTOOR,2013,0,0,0,0,0,0,0,0,0,0

@@ -1,4 +1,4 @@
-STATE/UT,DISTRICT,Year,Infanticid,Other murder,Rape,Kidnapping and Abduction,Foeticide,Abetment of suicide,Exposure and abandonment,Procuration of minor girls,Buying of girls for prostitution,Selling of girls for prostitution,Prohibition of child marriage act,Other Crimes,Total
+state/ut,district,year,infanticid,other_murder,rape,kidnapping_and_abduction,foeticide,abetment_of_suicide,exposure_and_abandonment,procuration_of_minor_girls,buying_of_girls_for_prostitution,selling_of_girls_for_prostitution,prohibition_of_child_marriage_act,other_crimes,total
 Andhra Pradesh,ADILABAD,2013,0,1,21,9,0,0,0,0,0,0,1,1,33
 Andhra Pradesh,ANANTAPUR,2013,0,1,15,68,0,3,0,0,0,0,0,0,87
 Andhra Pradesh,CHITTOOR,2013,0,6,1,0,0,0,0,0,0,0,0,0,7

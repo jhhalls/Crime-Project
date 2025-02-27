@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Sub_Group_Name,CD_Accidents,CD_By_Mob_AttackRiots,CD_By_other_Criminals,CD_By_Suicide,CD_IllnessNatural_Death,CD_While_Escaping_from_Custody
+area_name,year,group_name,sub_group_name,cd_accidents,cd_by_mob_attackriots,cd_by_other_criminals,cd_by_suicide,cd_illnessnatural_death,cd_while_escaping_from_custody
 Andhra Pradesh,2001,During Hospitalisation/Treatment/Other Reasons,5. Deaths due to Other Reasons,0.0,0.0,0.0,2.0,1.0,2.0
 Arunachal Pradesh,2001,During Hospitalisation/Treatment/Other Reasons,5. Deaths due to Other Reasons,0.0,0.0,0.0,0.0,0.0,0.0
 Bihar,2001,During Hospitalisation/Treatment/Other Reasons,5. Deaths due to Other Reasons,0.0,0.0,0.0,0.0,0.0,0.0

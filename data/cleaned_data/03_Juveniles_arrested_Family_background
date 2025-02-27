@@ -1,4 +1,4 @@
-Area_Name,Year,Sub_Group_Name,Family_back_ground_Homeless,Family_back_ground_Living_with_guardian,Family_back_ground_Living_with_parents,Family_back_ground_Total
+area_name,year,sub_group_name,family_back_ground_homeless,family_back_ground_living_with_guardian,family_back_ground_living_with_parents,family_back_ground_total
 Andaman & Nicobar Islands,2001,3. Family Background,0,0,16,16
 Andhra Pradesh,2001,3. Family Background,552,287,726,1565
 Arunachal Pradesh,2001,3. Family Background,0,58,79,137

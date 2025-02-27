@@ -1,4 +1,4 @@
-Area_Name,Year,Group_Name,Civilians_Injured,Civilians_Killed,No_of_Firings,Policemen_Injured,Policemen_Killed
+area_name,year,group_name,civilians_injured,civilians_killed,no_of_firings,policemen_injured,policemen_killed
 Andaman & Nicobar Islands,2001,Against Extremists & Terrorists,0,0,0,0,0
 Andhra Pradesh,2001,Against Extremists & Terrorists,4,105,108,14,8
 Arunachal Pradesh,2001,Against Extremists & Terrorists,0,0,0,0,0

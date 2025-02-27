@@ -1,4 +1,4 @@
-Area_Name,Year,HG_Lower_Subordinates_Actual_Strength,HG_Lower_Subordinates_Sanctioned_Strength,HG_Officers_Actual_Strength,HG_Officers_Sanctioned_Strength,HG_Upper_Subordinates_Actual_Strength,HG_Upper_Subordinates_Sanctioned_Strength
+area_name,year,hg_lower_subordinates_actual_strength,hg_lower_subordinates_sanctioned_strength,hg_officers_actual_strength,hg_officers_sanctioned_strength,hg_upper_subordinates_actual_strength,hg_upper_subordinates_sanctioned_strength
 Gujarat,2001,39236.0,45595.0,104.0,155.0,1366.0,1568.0
 Gujarat,2002,40098.0,43630.0,105.0,150.0,1350.0,1500.0
 Gujarat,2003,39834.0,43630.0,102.0,150.0,1283.0,1500.0
