@@ -74,8 +74,10 @@ def fix_data_types(df):
     return df
 
 
-def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
+import os
+import pandas as pd
 
+def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
     """
     Saves cleaned DataFrames to the specified directory with renamed files
     (removing leading numbers) and stores the list of cleaned filenames.
@@ -94,12 +96,12 @@ def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
         cleaned_file_path = os.path.join(output_dir, new_file_name)
         
         df.to_csv(cleaned_file_path, index=False)  # Save CSV without index
-        cleaned_filenames.append(new_file_name)  # Store new filename
+        cleaned_filenames.append({"Cleaned File Name": new_file_name})  # Store new filename
         print(f"✅ Saved cleaned file: {cleaned_file_path}")
 
-    # Save cleaned filenames to a text file
-    list_file_path = os.path.join(output_dir, "cleaned_file_list.txt")
-    with open(list_file_path, "w") as file:
-        file.writelines("\n".join(cleaned_filenames))
+    # Save cleaned filenames as a CSV file
+    cleaned_filenames_df = pd.DataFrame(cleaned_filenames)  
+    list_file_path = os.path.join(output_dir, "cleaned_file_list.csv")
+    cleaned_filenames_df.to_csv(list_file_path, index=False)  # Save CSV without index
 
     print(f"📜 List of cleaned files saved to: {list_file_path}")
