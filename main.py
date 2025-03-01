@@ -23,3 +23,5 @@ summarize_data_path = f"/Users/rohit/Downloads/My ML playlist/crime_project/repo
 generate_csv_summary(input_folder_path=cleaned_data_path, 
                      output_folder_path=summarize_data_path, 
                      include_correlation_matrix=True)
+
+print("✅ Data summary generated successfully!")
