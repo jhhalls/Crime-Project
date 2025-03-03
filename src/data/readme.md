@@ -13,8 +13,7 @@ This script downloads the “Crime in India” dataset from Kaggle and saves it 
 3.	Run the script: 
 ```python download_data.py```
 
-The dataset will be saved in:
-/Users/rohit/Downloads/My ML playlist/crime_project/data/raw/raw_data_from_kaggle
+The dataset will be saved in: `./data/raw/raw_data_from_kaggle`
 
 
 
