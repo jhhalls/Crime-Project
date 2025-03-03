@@ -1,5 +1,5 @@
 
-1. **Crime Data Retrieval from Kaggle (download_data.py)**
+1. # Crime Data Retrieval from Kaggle (download_data.py)
 
 This script downloads the “Crime in India” dataset from Kaggle and saves it to a specified local directory. It ensures the directory exists before downloading the dataset.
 
