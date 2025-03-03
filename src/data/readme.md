@@ -1,3 +1,27 @@
+
+1. Crime Data Retrieval from Kaggle (download_data.py)
+
+This script downloads the “Crime in India” dataset from Kaggle and saves it to a specified local directory. It ensures the directory exists before downloading the dataset.
+
+🚀 How to Use
+	1.	Install dependencies:
+```pip install kagglehub```
+
+	2.	Set up Kaggle API:
+		•	Download kaggle.json from Kaggle (Account Settings > API).
+		•	Place it in ~/.kaggle/ (Linux/macOS) or %HOMEPATH%\.kaggle\ (Windows).
+	3.	Run the script:
+
+```python download_data.py```
+
+
+
+The dataset will be saved in:
+/Users/rohit/Downloads/My ML playlist/crime_project/data/raw/raw_data_from_kaggle
+
+This script ensures structured data storage for further analysis. 🚀
+
+
 Data cleaning is a crucial step before analysis or modeling.
 
 1. Handling Duplicates
@@ -39,6 +63,3 @@ Data cleaning is a crucial step before analysis or modeling.
 	•	Check for typos in categorical data (e.g., “NY” vs. “New York”)
 	•	Merge inconsistent values (df['column'].replace({'N.Y.': 'New York'}))
 
-8.  Normalize & Scale Data (if required for ML)
-	•	Apply Min-Max Scaling or Standardization for numerical features:
-a
