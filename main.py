@@ -16,12 +16,15 @@ cleaned_data_path = "/Users/rohit/Downloads/My ML playlist/crime_project/data/cl
 # push Clean data to cleaned_data folder
 clean_data_dict, filenames = prepare_cleaned_data(raw_data_path, cleaned_data_path)
 
+
+save_cleaned_data(clean_data_dict)
+
 print("✅ Cleaning and saving completed successfully!")
 
-# Summarize data
-summarize_data_path = f"/Users/rohit/Downloads/My ML playlist/crime_project/reports"
-generate_csv_summary(input_folder_path=cleaned_data_path, 
-                     output_folder_path=summarize_data_path, 
-                     include_correlation_matrix=True)
+# # Summarize data
+# summarize_data_path = f"/Users/rohit/Downloads/My ML playlist/crime_project/reports"
+# generate_csv_summary(input_folder_path=cleaned_data_path, 
+#                      output_folder_path=summarize_data_path, 
+#                      include_correlation_matrix=True)
 
-print("✅ Data summary generated successfully!")
+# print("✅ Data summary generated successfully!")

@@ -1,8 +1,7 @@
 import pandas as pd
 import os
 import re
-
-import pandas as pd
+import logging
 
 def standardize_and_clean(df):
     """
@@ -32,20 +31,20 @@ def standardize_and_clean(df):
     return df
 
 
-def remove_leading_numbers(filename: str) -> str:
-    """
-    Removes leading numbers and any following underscores from a filename
-    while preserving the file extension.
+# def remove_leading_numbers(filename: str) -> str:
+#     """
+#     Removes leading numbers and any following underscores from a filename
+#     while preserving the file extension.
 
-    Args:
-        filename (str): Original filename.
+#     Args:
+#         filename (str): Original filename.
 
-    Returns:
-        str: Cleaned filename.
-    """
-    name, ext = os.path.splitext(filename)  # Split filename and extension
-    cleaned_name = re.sub(r'^\d+_?', '', name).lstrip()  # Remove leading numbers + optional underscore
-    return f"{cleaned_name}{ext}"  # Reconstruct filename with extension
+#     Returns:
+#         str: Cleaned filename.
+#     """
+#     name, ext = os.path.splitext(filename)  # Split filename and extension
+#     cleaned_name = re.sub(r'^\d+_?', '', name).lstrip()  # Remove leading numbers + optional underscore
+#     return f"{cleaned_name}{ext}"  # Reconstruct filename with extension
 
 def remove_duplicates(df):
     """
@@ -62,6 +61,7 @@ def remove_duplicates(df):
     return df
 
 def fix_data_types(df):
+
     """Converts columns to appropriate data types."""
     for col in df.columns:
         try:
@@ -73,7 +73,7 @@ def fix_data_types(df):
     print(df.info())
     return df
 
-def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
+
     """
     Saves cleaned DataFrames to the specified directory with renamed files
     (removing leading numbers) and stores the list of cleaned filenames.
@@ -101,3 +101,59 @@ def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
     cleaned_filenames_df.to_csv(list_file_path, index=False)  # Save CSV without index
 
     print(f"📜 List of cleaned files saved to: {list_file_path}")
+
+
+# Configure logging (Industry Best Practice)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+def remove_leading_numbers(filename):
+    """Removes leading numbers from a filename while preserving the extension."""
+    name, ext = os.path.splitext(filename)
+    cleaned_name = re.sub(r'^\d+[_-]*', '', name)  # Remove leading numbers and optional separators
+    return f"{cleaned_name}{ext}"  # Preserve original extension
+
+def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
+    """
+    Saves cleaned DataFrames to the specified directory with renamed files
+    (removing leading numbers) and stores the list of cleaned filenames as a CSV.
+
+    Args:
+        data_dict (dict): Dictionary where keys are filenames and values are DataFrames.
+        output_dir (str): Directory to save cleaned data.
+    """
+    
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
+
+    cleaned_files_info = []  # Store tuples of (original, cleaned filename)
+
+    for original_filename, df in data_dict.items():
+        cleaned_filename = remove_leading_numbers(original_filename)  # Rename file
+        
+        # Ensure the filename has .csv extension
+        if not cleaned_filename.endswith(".csv"):
+            cleaned_filename += ".csv"
+
+        cleaned_file_path = os.path.join(output_dir, cleaned_filename)
+        
+        try:
+            df.to_csv(cleaned_file_path, index=False)  # Save cleaned DataFrame
+            cleaned_files_info.append((original_filename, cleaned_filename))  # Store file mapping
+            logging.info(f"✅ Saved cleaned file: {cleaned_file_path}")
+        except Exception as e:
+            logging.error(f"❌ Error saving file {cleaned_filename}: {e}")
+
+    # If no files were processed, avoid saving an empty CSV
+    if not cleaned_files_info:
+        logging.warning("⚠️ No files were processed. Skipping saving cleaned file list.")
+        return
+
+    # Convert to DataFrame and save as CSV
+    cleaned_files_df = pd.DataFrame(cleaned_files_info, columns=["Original File Name", "Cleaned File Name"])
+    cleaned_file_list_path = os.path.join(output_dir, "cleaned_file_list.csv")
+
+    try:
+        cleaned_files_df.to_csv(cleaned_file_list_path, index=False)
+        logging.info(f"📜 Cleaned file list saved at: {cleaned_file_list_path}")
+    except Exception as e:
+        logging.error(f"❌ Error saving cleaned file list CSV: {e}")

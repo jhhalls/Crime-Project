@@ -1,0 +1,937 @@
+area_name,year,sub_group_name,victims_above_50_yrs,victims_total,victims_upto_10_15_yrs,victims_upto_10_yrs,victims_upto_15_18_yrs,victims_upto_18_30_yrs,victims_upto_30_50_yrs
+Andhra Pradesh,2001,1. Male Victims,17.0,144.0,3.0,1.0,5.0,54.0,64.0
+Arunachal Pradesh,2001,1. Male Victims,1.0,6.0,0.0,0.0,0.0,3.0,2.0
+Assam,2001,1. Male Victims,2.0,38.0,0.0,0.0,0.0,20.0,16.0
+Bihar,2001,1. Male Victims,20.0,232.0,3.0,0.0,19.0,116.0,74.0
+Chandigarh,2001,1. Male Victims,0.0,6.0,,0.0,,6.0,0.0
+Chhattisgarh,2001,1. Male Victims,8.0,73.0,2.0,2.0,3.0,33.0,25.0
+Delhi,2001,1. Male Victims,,63.0,1.0,1.0,10.0,31.0,20.0
+Goa,2001,1. Male Victims,2.0,5.0,,,,3.0,
+Gujarat,2001,1. Male Victims,18.0,230.0,23.0,44.0,11.0,61.0,73.0
+Haryana,2001,1. Male Victims,3.0,67.0,0.0,4.0,2.0,32.0,26.0
+Himachal Pradesh,2001,1. Male Victims,1.0,10.0,1.0,0.0,2.0,2.0,4.0
+Jammu & Kashmir,2001,1. Male Victims,0.0,27.0,8.0,0.0,8.0,6.0,5.0
+Jharkhand,2001,1. Male Victims,5.0,108.0,1.0,2.0,6.0,52.0,42.0
+Karnataka,2001,1. Male Victims,3.0,67.0,5.0,2.0,5.0,27.0,25.0
+Kerala,2001,1. Male Victims,7.0,81.0,4.0,3.0,,23.0,44.0
+Madhya Pradesh,2001,1. Male Victims,7.0,86.0,3.0,2.0,3.0,44.0,27.0
+Maharashtra,2001,1. Male Victims,6.0,103.0,5.0,3.0,10.0,47.0,32.0
+Manipur,2001,1. Male Victims,,3.0,,,,2.0,1.0
+Meghalaya,2001,1. Male Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Mizoram,2001,1. Male Victims,2.0,13.0,1.0,0.0,1.0,3.0,6.0
+Nagaland,2001,1. Male Victims,0.0,36.0,0.0,0.0,7.0,18.0,11.0
+Odisha,2001,1. Male Victims,0.0,38.0,0.0,0.0,5.0,17.0,16.0
+Punjab,2001,1. Male Victims,5.0,56.0,0.0,3.0,2.0,18.0,28.0
+Rajasthan,2001,1. Male Victims,3.0,54.0,,1.0,,18.0,32.0
+Sikkim,2001,1. Male Victims,,7.0,,,,6.0,1.0
+Tamil Nadu,2001,1. Male Victims,4.0,11.0,1.0,1.0,3.0,1.0,1.0
+Uttar Pradesh,2001,1. Male Victims,116.0,1086.0,7.0,4.0,62.0,430.0,467.0
+Uttarakhand,2001,1. Male Victims,6.0,38.0,,,1.0,14.0,17.0
+West Bengal,2001,1. Male Victims,22.0,513.0,16.0,1.0,28.0,239.0,207.0
+Andhra Pradesh,2002,1. Male Victims,10.0,181.0,2.0,2.0,7.0,78.0,82.0
+Arunachal Pradesh,2002,1. Male Victims,1.0,6.0,,,,5.0,
+Assam,2002,1. Male Victims,4.0,54.0,0.0,0.0,0.0,28.0,22.0
+Bihar,2002,1. Male Victims,18.0,381.0,1.0,0.0,15.0,189.0,158.0
+Chandigarh,2002,1. Male Victims,0.0,7.0,0.0,0.0,0.0,4.0,3.0
+Chhattisgarh,2002,1. Male Victims,3.0,20.0,0.0,2.0,3.0,7.0,5.0
+Daman & Diu,2002,1. Male Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Delhi,2002,1. Male Victims,3.0,68.0,1.0,5.0,3.0,34.0,22.0
+Goa,2002,1. Male Victims,1.0,6.0,,,,3.0,2.0
+Gujarat,2002,1. Male Victims,6.0,24.0,0.0,0.0,0.0,6.0,12.0
+Haryana,2002,1. Male Victims,1.0,83.0,0.0,2.0,5.0,40.0,35.0
+Himachal Pradesh,2002,1. Male Victims,1.0,4.0,1.0,0.0,0.0,0.0,2.0
+Jammu & Kashmir,2002,1. Male Victims,1.0,28.0,0.0,0.0,2.0,11.0,14.0
+Jharkhand,2002,1. Male Victims,6.0,95.0,3.0,1.0,4.0,39.0,42.0
+Karnataka,2002,1. Male Victims,3.0,52.0,0.0,5.0,4.0,20.0,20.0
+Kerala,2002,1. Male Victims,10.0,190.0,4.0,,1.0,93.0,82.0
+Madhya Pradesh,2002,1. Male Victims,23.0,182.0,14.0,4.0,16.0,73.0,52.0
+Maharashtra,2002,1. Male Victims,9.0,99.0,1.0,3.0,1.0,45.0,40.0
+Manipur,2002,1. Male Victims,1.0,1.0,,,,,
+Meghalaya,2002,1. Male Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Mizoram,2002,1. Male Victims,,4.0,,,2.0,1.0,1.0
+Nagaland,2002,1. Male Victims,0.0,6.0,0.0,0.0,0.0,4.0,2.0
+Odisha,2002,1. Male Victims,1.0,43.0,0.0,0.0,2.0,15.0,25.0
+Puducherry,2002,1. Male Victims,,1.0,,,,,1.0
+Punjab,2002,1. Male Victims,1.0,103.0,0.0,3.0,1.0,47.0,51.0
+Rajasthan,2002,1. Male Victims,4.0,50.0,1.0,,1.0,17.0,27.0
+Sikkim,2002,1. Male Victims,,2.0,,,,,2.0
+Tamil Nadu,2002,1. Male Victims,0.0,30.0,0.0,0.0,4.0,9.0,17.0
+Uttar Pradesh,2002,1. Male Victims,84.0,1155.0,10.0,4.0,66.0,540.0,451.0
+Uttarakhand,2002,1. Male Victims,5.0,44.0,,,,18.0,21.0
+West Bengal,2002,1. Male Victims,15.0,489.0,0.0,0.0,2.0,307.0,165.0
+Andaman & Nicobar Islands,2003,1. Male Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Andhra Pradesh,2003,1. Male Victims,11.0,161.0,0.0,0.0,1.0,86.0,63.0
+Arunachal Pradesh,2003,1. Male Victims,0.0,3.0,0.0,0.0,0.0,3.0,0.0
+Assam,2003,1. Male Victims,0.0,30.0,0.0,0.0,0.0,20.0,10.0
+Bihar,2003,1. Male Victims,21.0,299.0,4.0,0.0,21.0,174.0,79.0
+Chandigarh,2003,1. Male Victims,0.0,2.0,0.0,0.0,0.0,2.0,0.0
+Chhattisgarh,2003,1. Male Victims,3.0,44.0,0.0,0.0,5.0,23.0,13.0
+Dadra & Nagar Haveli,2003,1. Male Victims,,1.0,,,,,1.0
+Daman & Diu,2003,1. Male Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Delhi,2003,1. Male Victims,3.0,68.0,1.0,2.0,2.0,36.0,24.0
+Goa,2003,1. Male Victims,3.0,14.0,,,,5.0,6.0
+Gujarat,2003,1. Male Victims,1.0,56.0,2.0,2.0,4.0,34.0,13.0
+Haryana,2003,1. Male Victims,3.0,71.0,0.0,5.0,4.0,22.0,37.0
+Himachal Pradesh,2003,1. Male Victims,0.0,5.0,1.0,0.0,0.0,1.0,3.0
+Jammu & Kashmir,2003,1. Male Victims,2.0,26.0,0.0,0.0,0.0,12.0,12.0
+Jharkhand,2003,1. Male Victims,4.0,75.0,1.0,0.0,2.0,28.0,40.0
+Karnataka,2003,1. Male Victims,6.0,67.0,2.0,1.0,1.0,20.0,37.0
+Kerala,2003,1. Male Victims,35.0,309.0,5.0,1.0,1.0,182.0,85.0
+Madhya Pradesh,2003,1. Male Victims,10.0,41.0,,,2.0,16.0,13.0
+Maharashtra,2003,1. Male Victims,12.0,118.0,2.0,1.0,2.0,40.0,61.0
+Manipur,2003,1. Male Victims,0.0,5.0,,,,3.0,2.0
+Meghalaya,2003,1. Male Victims,0.0,15.0,1.0,0.0,1.0,12.0,1.0
+Mizoram,2003,1. Male Victims,0.0,2.0,,0.0,0.0,2.0,0.0
+Nagaland,2003,1. Male Victims,0.0,12.0,0.0,0.0,0.0,6.0,6.0
+Odisha,2003,1. Male Victims,1.0,45.0,0.0,0.0,0.0,22.0,22.0
+Punjab,2003,1. Male Victims,7.0,131.0,1.0,1.0,6.0,35.0,81.0
+Rajasthan,2003,1. Male Victims,2.0,47.0,2.0,1.0,1.0,18.0,23.0
+Sikkim,2003,1. Male Victims,,1.0,,,,1.0,
+Tamil Nadu,2003,1. Male Victims,2.0,22.0,1.0,0.0,1.0,5.0,13.0
+Uttar Pradesh,2003,1. Male Victims,130.0,1407.0,18.0,2.0,77.0,592.0,588.0
+Uttarakhand,2003,1. Male Victims,2.0,33.0,0.0,0.0,0.0,12.0,19.0
+West Bengal,2003,1. Male Victims,21.0,431.0,1.0,0.0,2.0,242.0,165.0
+Andaman & Nicobar Islands,2004,1. Male Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Andhra Pradesh,2004,1. Male Victims,6.0,141.0,1.0,0.0,0.0,74.0,60.0
+Arunachal Pradesh,2004,1. Male Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Assam,2004,1. Male Victims,1.0,58.0,0.0,0.0,0.0,39.0,18.0
+Bihar,2004,1. Male Victims,14.0,267.0,0.0,1.0,9.0,140.0,103.0
+Chandigarh,2004,1. Male Victims,0.0,10.0,0.0,0.0,0.0,2.0,8.0
+Chhattisgarh,2004,1. Male Victims,4.0,21.0,0.0,0.0,2.0,10.0,5.0
+Delhi,2004,1. Male Victims,6.0,100.0,0.0,4.0,2.0,60.0,28.0
+Goa,2004,1. Male Victims,1.0,5.0,,,,1.0,3.0
+Gujarat,2004,1. Male Victims,0.0,26.0,0.0,4.0,2.0,8.0,12.0
+Haryana,2004,1. Male Victims,2.0,59.0,,4.0,1.0,24.0,28.0
+Himachal Pradesh,2004,1. Male Victims,2.0,9.0,0.0,0.0,0.0,1.0,6.0
+Jammu & Kashmir,2004,1. Male Victims,2.0,25.0,,1.0,,7.0,15.0
+Jharkhand,2004,1. Male Victims,4.0,78.0,1.0,,2.0,30.0,41.0
+Karnataka,2004,1. Male Victims,15.0,204.0,2.0,4.0,1.0,83.0,99.0
+Kerala,2004,1. Male Victims,35.0,418.0,8.0,5.0,14.0,201.0,155.0
+Madhya Pradesh,2004,1. Male Victims,11.0,201.0,14.0,4.0,8.0,90.0,74.0
+Maharashtra,2004,1. Male Victims,29.0,189.0,0.0,4.0,2.0,51.0,103.0
+Manipur,2004,1. Male Victims,0.0,2.0,0.0,0.0,0.0,2.0,0.0
+Meghalaya,2004,1. Male Victims,0.0,7.0,0.0,0.0,0.0,4.0,3.0
+Mizoram,2004,1. Male Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Nagaland,2004,1. Male Victims,0.0,5.0,0.0,0.0,0.0,2.0,3.0
+Odisha,2004,1. Male Victims,2.0,18.0,0.0,0.0,0.0,6.0,10.0
+Puducherry,2004,1. Male Victims,7.0,14.0,,,,2.0,5.0
+Punjab,2004,1. Male Victims,19.0,160.0,1.0,7.0,6.0,72.0,55.0
+Rajasthan,2004,1. Male Victims,,52.0,,1.0,,23.0,28.0
+Sikkim,2004,1. Male Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Tamil Nadu,2004,1. Male Victims,1.0,63.0,42.0,0.0,0.0,11.0,9.0
+Tripura,2004,1. Male Victims,,,,0.0,,,
+Uttar Pradesh,2004,1. Male Victims,108.0,1262.0,20.0,10.0,65.0,570.0,489.0
+Uttarakhand,2004,1. Male Victims,2.0,27.0,0.0,0.0,0.0,15.0,10.0
+West Bengal,2004,1. Male Victims,33.0,403.0,1.0,0.0,0.0,220.0,149.0
+Andaman & Nicobar Islands,2005,1. Male Victims,,3.0,,,,1.0,2.0
+Andhra Pradesh,2005,1. Male Victims,6.0,94.0,2.0,1.0,2.0,41.0,42.0
+Arunachal Pradesh,2005,1. Male Victims,0.0,5.0,0.0,0.0,0.0,5.0,0.0
+Assam,2005,1. Male Victims,2.0,117.0,0.0,0.0,0.0,69.0,46.0
+Bihar,2005,1. Male Victims,8.0,230.0,1.0,0.0,6.0,130.0,85.0
+Chandigarh,2005,1. Male Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Chhattisgarh,2005,1. Male Victims,4.0,53.0,1.0,2.0,6.0,15.0,25.0
+Daman & Diu,2005,1. Male Victims,,4.0,,,,4.0,
+Delhi,2005,1. Male Victims,,69.0,3.0,2.0,4.0,31.0,29.0
+Goa,2005,1. Male Victims,1.0,3.0,,,,,2.0
+Gujarat,2005,1. Male Victims,1.0,31.0,0.0,1.0,0.0,13.0,16.0
+Haryana,2005,1. Male Victims,2.0,51.0,0.0,4.0,2.0,20.0,23.0
+Himachal Pradesh,2005,1. Male Victims,1.0,19.0,0.0,0.0,1.0,9.0,8.0
+Jammu & Kashmir,2005,1. Male Victims,1.0,32.0,0.0,1.0,0.0,16.0,14.0
+Jharkhand,2005,1. Male Victims,0.0,79.0,0.0,0.0,6.0,35.0,38.0
+Karnataka,2005,1. Male Victims,3.0,72.0,1.0,0.0,3.0,32.0,33.0
+Kerala,2005,1. Male Victims,16.0,78.0,,2.0,3.0,22.0,35.0
+Madhya Pradesh,2005,1. Male Victims,15.0,187.0,12.0,5.0,12.0,75.0,68.0
+Maharashtra,2005,1. Male Victims,8.0,87.0,2.0,7.0,3.0,29.0,38.0
+Manipur,2005,1. Male Victims,0.0,4.0,0.0,0.0,0.0,2.0,2.0
+Meghalaya,2005,1. Male Victims,1.0,2.0,0.0,0.0,0.0,1.0,0.0
+Mizoram,2005,1. Male Victims,0.0,5.0,0.0,0.0,0.0,5.0,0.0
+Nagaland,2005,1. Male Victims,0.0,7.0,0.0,0.0,0.0,2.0,5.0
+Odisha,2005,1. Male Victims,1.0,46.0,2.0,4.0,1.0,21.0,17.0
+Puducherry,2005,1. Male Victims,1.0,6.0,,,,1.0,4.0
+Punjab,2005,1. Male Victims,35.0,253.0,7.0,9.0,19.0,86.0,97.0
+Rajasthan,2005,1. Male Victims,6.0,53.0,1.0,1.0,4.0,18.0,23.0
+Tamil Nadu,2005,1. Male Victims,2.0,32.0,1.0,,1.0,14.0,14.0
+Tripura,2005,1. Male Victims,1.0,1.0,,,,,
+Uttar Pradesh,2005,1. Male Victims,139.0,1348.0,24.0,9.0,90.0,568.0,518.0
+Uttarakhand,2005,1. Male Victims,1.0,27.0,0.0,0.0,0.0,17.0,9.0
+West Bengal,2005,1. Male Victims,22.0,359.0,0.0,0.0,0.0,204.0,133.0
+Andhra Pradesh,2006,1. Male Victims,5.0,120.0,2.0,0.0,2.0,60.0,51.0
+Arunachal Pradesh,2006,1. Male Victims,0.0,3.0,0.0,0.0,0.0,1.0,2.0
+Assam,2006,1. Male Victims,0.0,32.0,0.0,0.0,0.0,18.0,14.0
+Bihar,2006,1. Male Victims,12.0,298.0,0.0,0.0,0.0,174.0,112.0
+Chandigarh,2006,1. Male Victims,0.0,7.0,0.0,0.0,0.0,5.0,2.0
+Chhattisgarh,2006,1. Male Victims,2.0,19.0,2.0,1.0,0.0,5.0,9.0
+Delhi,2006,1. Male Victims,2.0,67.0,,,3.0,28.0,34.0
+Goa,2006,1. Male Victims,,2.0,1.0,,,,1.0
+Gujarat,2006,1. Male Victims,1.0,20.0,1.0,0.0,1.0,5.0,12.0
+Haryana,2006,1. Male Victims,4.0,47.0,0.0,,3.0,18.0,22.0
+Himachal Pradesh,2006,1. Male Victims,0.0,19.0,0.0,0.0,0.0,6.0,13.0
+Jammu & Kashmir,2006,1. Male Victims,1.0,34.0,0.0,0.0,0.0,21.0,12.0
+Jharkhand,2006,1. Male Victims,3.0,81.0,3.0,0.0,7.0,34.0,34.0
+Karnataka,2006,1. Male Victims,4.0,64.0,0.0,3.0,2.0,30.0,25.0
+Kerala,2006,1. Male Victims,18.0,102.0,4.0,1.0,1.0,26.0,52.0
+Madhya Pradesh,2006,1. Male Victims,16.0,119.0,2.0,12.0,7.0,38.0,44.0
+Maharashtra,2006,1. Male Victims,10.0,89.0,4.0,2.0,1.0,40.0,32.0
+Manipur,2006,1. Male Victims,0.0,4.0,0.0,0.0,0.0,3.0,1.0
+Meghalaya,2006,1. Male Victims,0.0,6.0,0.0,0.0,0.0,4.0,2.0
+Mizoram,2006,1. Male Victims,0.0,8.0,0.0,0.0,1.0,3.0,4.0
+Nagaland,2006,1. Male Victims,0.0,7.0,0.0,0.0,0.0,5.0,2.0
+Odisha,2006,1. Male Victims,0.0,40.0,0.0,0.0,0.0,26.0,14.0
+Puducherry,2006,1. Male Victims,1.0,3.0,,,,1.0,1.0
+Punjab,2006,1. Male Victims,8.0,151.0,4.0,1.0,6.0,70.0,62.0
+Rajasthan,2006,1. Male Victims,2.0,61.0,2.0,,3.0,22.0,32.0
+Sikkim,2006,1. Male Victims,,3.0,,1.0,,,2.0
+Tamil Nadu,2006,1. Male Victims,4.0,22.0,1.0,1.0,1.0,7.0,8.0
+Tripura,2006,1. Male Victims,,1.0,1.0,,,,
+Uttar Pradesh,2006,1. Male Victims,133.0,1364.0,22.0,6.0,59.0,528.0,616.0
+Uttarakhand,2006,1. Male Victims,1.0,38.0,0.0,0.0,0.0,19.0,18.0
+West Bengal,2006,1. Male Victims,17.0,359.0,0.0,0.0,0.0,208.0,134.0
+Andaman & Nicobar Islands,2007,1. Male Victims,,1.0,1.0,,,,
+Andhra Pradesh,2007,1. Male Victims,19.0,136.0,1.0,2.0,2.0,62.0,50.0
+Arunachal Pradesh,2007,1. Male Victims,0.0,2.0,0.0,0.0,0.0,0.0,2.0
+Assam,2007,1. Male Victims,0.0,109.0,0.0,0.0,0.0,61.0,48.0
+Bihar,2007,1. Male Victims,10.0,240.0,0.0,0.0,1.0,142.0,87.0
+Chandigarh,2007,1. Male Victims,1.0,8.0,0.0,0.0,0.0,2.0,5.0
+Chhattisgarh,2007,1. Male Victims,2.0,31.0,0.0,2.0,2.0,15.0,10.0
+Delhi,2007,1. Male Victims,3.0,93.0,,1.0,1.0,49.0,39.0
+Goa,2007,1. Male Victims,2.0,6.0,,,,1.0,3.0
+Gujarat,2007,1. Male Victims,0.0,16.0,2.0,4.0,0.0,6.0,4.0
+Haryana,2007,1. Male Victims,2.0,78.0,1.0,0.0,4.0,37.0,34.0
+Himachal Pradesh,2007,1. Male Victims,0.0,6.0,0.0,0.0,0.0,0.0,6.0
+Jammu & Kashmir,2007,1. Male Victims,0.0,20.0,1.0,1.0,0.0,8.0,10.0
+Jharkhand,2007,1. Male Victims,2.0,86.0,0.0,0.0,6.0,42.0,36.0
+Karnataka,2007,1. Male Victims,1.0,51.0,0.0,2.0,1.0,24.0,23.0
+Kerala,2007,1. Male Victims,14.0,84.0,2.0,2.0,1.0,24.0,41.0
+Madhya Pradesh,2007,1. Male Victims,9.0,132.0,6.0,10.0,11.0,52.0,44.0
+Maharashtra,2007,1. Male Victims,10.0,122.0,1.0,3.0,6.0,54.0,48.0
+Manipur,2007,1. Male Victims,0.0,2.0,0.0,1.0,0.0,1.0,0.0
+Meghalaya,2007,1. Male Victims,0.0,8.0,0.0,0.0,0.0,6.0,2.0
+Mizoram,2007,1. Male Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Nagaland,2007,1. Male Victims,0.0,8.0,0.0,0.0,0.0,8.0,0.0
+Odisha,2007,1. Male Victims,0.0,40.0,0.0,0.0,0.0,37.0,3.0
+Puducherry,2007,1. Male Victims,,3.0,1.0,1.0,,,1.0
+Punjab,2007,1. Male Victims,9.0,158.0,4.0,5.0,4.0,48.0,88.0
+Rajasthan,2007,1. Male Victims,6.0,59.0,1.0,2.0,3.0,16.0,31.0
+Sikkim,2007,1. Male Victims,,3.0,,,,1.0,2.0
+Tamil Nadu,2007,1. Male Victims,3.0,25.0,2.0,1.0,0.0,8.0,11.0
+Tripura,2007,1. Male Victims,,1.0,,,,,1.0
+Uttar Pradesh,2007,1. Male Victims,150.0,1384.0,30.0,9.0,74.0,606.0,515.0
+Uttarakhand,2007,1. Male Victims,2.0,39.0,,,,23.0,14.0
+West Bengal,2007,1. Male Victims,6.0,292.0,3.0,6.0,23.0,166.0,88.0
+Andhra Pradesh,2008,1. Male Victims,19.0,151.0,0.0,2.0,8.0,51.0,71.0
+Arunachal Pradesh,2008,1. Male Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Assam,2008,1. Male Victims,0.0,71.0,0.0,0.0,0.0,46.0,25.0
+Bihar,2008,1. Male Victims,27.0,362.0,0.0,0.0,0.0,181.0,154.0
+Chandigarh,2008,1. Male Victims,0.0,5.0,0.0,0.0,0.0,5.0,0.0
+Chhattisgarh,2008,1. Male Victims,0.0,14.0,0.0,2.0,0.0,4.0,8.0
+Delhi,2008,1. Male Victims,2.0,64.0,1.0,1.0,1.0,40.0,19.0
+Goa,2008,1. Male Victims,2.0,13.0,1.0,1.0,0.0,1.0,8.0
+Gujarat,2008,1. Male Victims,4.0,72.0,3.0,7.0,1.0,33.0,24.0
+Haryana,2008,1. Male Victims,3.0,83.0,1.0,5.0,2.0,30.0,42.0
+Himachal Pradesh,2008,1. Male Victims,0.0,4.0,0.0,0.0,0.0,1.0,3.0
+Jammu & Kashmir,2008,1. Male Victims,1.0,36.0,0.0,0.0,1.0,23.0,11.0
+Jharkhand,2008,1. Male Victims,3.0,96.0,0.0,0.0,0.0,69.0,24.0
+Karnataka,2008,1. Male Victims,5.0,66.0,1.0,2.0,1.0,23.0,34.0
+Kerala,2008,1. Male Victims,17.0,79.0,1.0,4.0,,24.0,33.0
+Madhya Pradesh,2008,1. Male Victims,20.0,189.0,4.0,10.0,5.0,79.0,71.0
+Maharashtra,2008,1. Male Victims,15.0,150.0,4.0,7.0,1.0,41.0,82.0
+Manipur,2008,1. Male Victims,1.0,2.0,0.0,0.0,0.0,0.0,1.0
+Meghalaya,2008,1. Male Victims,0.0,6.0,0.0,0.0,0.0,5.0,1.0
+Mizoram,2008,1. Male Victims,0.0,5.0,0.0,0.0,0.0,4.0,1.0
+Nagaland,2008,1. Male Victims,0.0,12.0,0.0,0.0,0.0,9.0,3.0
+Odisha,2008,1. Male Victims,10.0,52.0,0.0,0.0,4.0,20.0,18.0
+Puducherry,2008,1. Male Victims,1.0,3.0,,,,2.0,
+Punjab,2008,1. Male Victims,8.0,128.0,4.0,5.0,3.0,46.0,62.0
+Rajasthan,2008,1. Male Victims,4.0,51.0,,2.0,2.0,19.0,24.0
+Sikkim,2008,1. Male Victims,,5.0,,,,5.0,
+Tamil Nadu,2008,1. Male Victims,1.0,24.0,,1.0,,8.0,14.0
+Tripura,2008,1. Male Victims,,2.0,,,1.0,,1.0
+Uttar Pradesh,2008,1. Male Victims,114.0,1275.0,9.0,4.0,50.0,645.0,453.0
+Uttarakhand,2008,1. Male Victims,3.0,34.0,,,,17.0,14.0
+West Bengal,2008,1. Male Victims,31.0,409.0,0.0,0.0,1.0,182.0,195.0
+Andaman & Nicobar Islands,2009,1. Male Victims,2.0,4.0,,,,,2.0
+Andhra Pradesh,2009,1. Male Victims,23.0,113.0,0.0,1.0,1.0,37.0,51.0
+Arunachal Pradesh,2009,1. Male Victims,0.0,5.0,0.0,0.0,0.0,0.0,5.0
+Assam,2009,1. Male Victims,0.0,35.0,0.0,0.0,0.0,24.0,11.0
+Bihar,2009,1. Male Victims,15.0,227.0,0.0,0.0,0.0,128.0,84.0
+Chandigarh,2009,1. Male Victims,0.0,6.0,0.0,1.0,0.0,3.0,2.0
+Chhattisgarh,2009,1. Male Victims,1.0,17.0,0.0,2.0,0.0,3.0,11.0
+Dadra & Nagar Haveli,2009,1. Male Victims,,1.0,,,,,1.0
+Daman & Diu,2009,1. Male Victims,,1.0,,,,1.0,
+Delhi,2009,1. Male Victims,3.0,83.0,1.0,,3.0,41.0,35.0
+Goa,2009,1. Male Victims,2.0,16.0,0.0,0.0,1.0,11.0,2.0
+Gujarat,2009,1. Male Victims,0.0,40.0,2.0,1.0,1.0,22.0,14.0
+Haryana,2009,1. Male Victims,7.0,89.0,0.0,2.0,1.0,43.0,36.0
+Himachal Pradesh,2009,1. Male Victims,3.0,12.0,0.0,0.0,0.0,3.0,6.0
+Jammu & Kashmir,2009,1. Male Victims,0.0,24.0,0.0,0.0,2.0,10.0,12.0
+Jharkhand,2009,1. Male Victims,6.0,88.0,0.0,1.0,3.0,33.0,45.0
+Karnataka,2009,1. Male Victims,3.0,98.0,0.0,1.0,2.0,55.0,37.0
+Kerala,2009,1. Male Victims,23.0,128.0,5.0,6.0,8.0,25.0,61.0
+Madhya Pradesh,2009,1. Male Victims,2.0,115.0,6.0,8.0,6.0,53.0,40.0
+Maharashtra,2009,1. Male Victims,16.0,94.0,2.0,10.0,2.0,28.0,36.0
+Manipur,2009,1. Male Victims,0.0,2.0,0.0,1.0,1.0,0.0,0.0
+Meghalaya,2009,1. Male Victims,0.0,12.0,0.0,0.0,0.0,8.0,4.0
+Mizoram,2009,1. Male Victims,1.0,8.0,,,,2.0,5.0
+Nagaland,2009,1. Male Victims,,6.0,,,,,6.0
+Odisha,2009,1. Male Victims,0.0,40.0,0.0,0.0,0.0,21.0,19.0
+Puducherry,2009,1. Male Victims,,5.0,,2.0,,1.0,2.0
+Punjab,2009,1. Male Victims,9.0,112.0,2.0,4.0,3.0,35.0,59.0
+Rajasthan,2009,1. Male Victims,6.0,118.0,1.0,,2.0,52.0,57.0
+Sikkim,2009,1. Male Victims,,1.0,,,,1.0,
+Tamil Nadu,2009,1. Male Victims,3.0,24.0,0.0,1.0,1.0,6.0,13.0
+Tripura,2009,1. Male Victims,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+Uttar Pradesh,2009,1. Male Victims,117.0,1196.0,14.0,5.0,39.0,560.0,461.0
+Uttarakhand,2009,1. Male Victims,6.0,43.0,,,,19.0,18.0
+West Bengal,2009,1. Male Victims,41.0,765.0,8.0,7.0,40.0,384.0,285.0
+Andaman & Nicobar Islands,2010,1. Male Victims,,1.0,,,,,1.0
+Andhra Pradesh,2010,1. Male Victims,15.0,129.0,0.0,1.0,2.0,54.0,57.0
+Arunachal Pradesh,2010,1. Male Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Assam,2010,1. Male Victims,,46.0,,,,33.0,13.0
+Bihar,2010,1. Male Victims,16.0,266.0,,,8.0,164.0,78.0
+Chandigarh,2010,1. Male Victims,0.0,9.0,0.0,0.0,0.0,1.0,8.0
+Chhattisgarh,2010,1. Male Victims,4.0,25.0,0.0,3.0,1.0,6.0,11.0
+Dadra & Nagar Haveli,2010,1. Male Victims,1.0,1.0,,,,,
+Daman & Diu,2010,1. Male Victims,,1.0,,,,1.0,
+Delhi,2010,1. Male Victims,3.0,113.0,9.0,7.0,4.0,61.0,29.0
+Goa,2010,1. Male Victims,0.0,3.0,0.0,1.0,0.0,0.0,2.0
+Gujarat,2010,1. Male Victims,7.0,69.0,1.0,0.0,0.0,32.0,29.0
+Haryana,2010,1. Male Victims,3.0,66.0,0.0,1.0,1.0,32.0,29.0
+Himachal Pradesh,2010,1. Male Victims,2.0,9.0,0.0,0.0,1.0,1.0,5.0
+Jammu & Kashmir,2010,1. Male Victims,3.0,22.0,0.0,0.0,0.0,9.0,10.0
+Jharkhand,2010,1. Male Victims,2.0,92.0,0.0,0.0,4.0,43.0,43.0
+Karnataka,2010,1. Male Victims,6.0,126.0,0.0,0.0,1.0,72.0,47.0
+Kerala,2010,1. Male Victims,21.0,109.0,0.0,2.0,1.0,41.0,44.0
+Madhya Pradesh,2010,1. Male Victims,3.0,112.0,3.0,8.0,2.0,48.0,48.0
+Maharashtra,2010,1. Male Victims,18.0,178.0,5.0,6.0,5.0,92.0,52.0
+Manipur,2010,1. Male Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Meghalaya,2010,1. Male Victims,0.0,8.0,1.0,0.0,1.0,3.0,3.0
+Mizoram,2010,1. Male Victims,1.0,13.0,0.0,0.0,0.0,5.0,7.0
+Nagaland,2010,1. Male Victims,2.0,11.0,1.0,0.0,0.0,4.0,4.0
+Odisha,2010,1. Male Victims,0.0,19.0,0.0,0.0,0.0,9.0,10.0
+Puducherry,2010,1. Male Victims,4.0,13.0,,1.0,,3.0,5.0
+Punjab,2010,1. Male Victims,12.0,134.0,2.0,4.0,6.0,48.0,62.0
+Rajasthan,2010,1. Male Victims,9.0,96.0,,,3.0,33.0,51.0
+Sikkim,2010,1. Male Victims,,2.0,,,,1.0,1.0
+Tamil Nadu,2010,1. Male Victims,3.0,29.0,0.0,1.0,2.0,9.0,14.0
+Tripura,2010,1. Male Victims,0.0,5.0,0.0,1.0,1.0,2.0,1.0
+Uttar Pradesh,2010,1. Male Victims,126.0,1186.0,16.0,4.0,32.0,587.0,421.0
+Uttarakhand,2010,1. Male Victims,2.0,49.0,,,,27.0,20.0
+West Bengal,2010,1. Male Victims,42.0,478.0,2.0,0.0,3.0,315.0,116.0
+Andhra Pradesh,2001,2. Female Victims,2.0,5.0,0.0,0.0,0.0,3.0,0.0
+Arunachal Pradesh,2001,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2001,2. Female Victims,0.0,2.0,0.0,0.0,1.0,0.0,1.0
+Bihar,2001,2. Female Victims,0.0,18.0,0.0,0.0,1.0,12.0,5.0
+Chandigarh,2001,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chhattisgarh,2001,2. Female Victims,1.0,7.0,0.0,1.0,0.0,4.0,1.0
+Delhi,2001,2. Female Victims,1.0,14.0,1.0,2.0,,4.0,6.0
+Gujarat,2001,2. Female Victims,32.0,221.0,21.0,40.0,17.0,59.0,52.0
+Haryana,2001,2. Female Victims,1.0,13.0,0.0,1.0,1.0,6.0,4.0
+Himachal Pradesh,2001,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Jammu & Kashmir,2001,2. Female Victims,0.0,9.0,0.0,1.0,0.0,2.0,6.0
+Jharkhand,2001,2. Female Victims,4.0,35.0,0.0,3.0,6.0,13.0,9.0
+Karnataka,2001,2. Female Victims,2.0,10.0,0.0,2.0,2.0,2.0,2.0
+Kerala,2001,2. Female Victims,3.0,30.0,1.0,2.0,4.0,12.0,8.0
+Madhya Pradesh,2001,2. Female Victims,6.0,39.0,2.0,1.0,4.0,18.0,8.0
+Maharashtra,2001,2. Female Victims,2.0,31.0,1.0,4.0,1.0,19.0,4.0
+Manipur,2001,2. Female Victims,,2.0,,,,1.0,1.0
+Meghalaya,2001,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mizoram,2001,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Nagaland,2001,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Odisha,2001,2. Female Victims,0.0,17.0,0.0,0.0,0.0,17.0,0.0
+Puducherry,2001,2. Female Victims,1.0,1.0,,,,,
+Punjab,2001,2. Female Victims,2.0,24.0,0.0,1.0,0.0,16.0,5.0
+Rajasthan,2001,2. Female Victims,,9.0,,2.0,1.0,3.0,3.0
+Tamil Nadu,2001,2. Female Victims,2.0,8.0,,,1.0,3.0,2.0
+Uttar Pradesh,2001,2. Female Victims,7.0,139.0,2.0,1.0,13.0,63.0,53.0
+Uttarakhand,2001,2. Female Victims,,1.0,,,,,1.0
+West Bengal,2001,2. Female Victims,1.0,75.0,4.0,0.0,11.0,35.0,24.0
+Andaman & Nicobar Islands,2002,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Andhra Pradesh,2002,2. Female Victims,5.0,22.0,0.0,0.0,0.0,8.0,9.0
+Assam,2002,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Bihar,2002,2. Female Victims,0.0,19.0,0.0,0.0,2.0,12.0,5.0
+Chandigarh,2002,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chhattisgarh,2002,2. Female Victims,0.0,4.0,1.0,0.0,0.0,2.0,1.0
+Daman & Diu,2002,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Delhi,2002,2. Female Victims,0.0,11.0,0.0,3.0,0.0,3.0,5.0
+Gujarat,2002,2. Female Victims,0.0,3.0,0.0,0.0,0.0,1.0,2.0
+Haryana,2002,2. Female Victims,1.0,12.0,1.0,1.0,1.0,5.0,3.0
+Himachal Pradesh,2002,2. Female Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Jammu & Kashmir,2002,2. Female Victims,0.0,4.0,0.0,0.0,0.0,2.0,2.0
+Jharkhand,2002,2. Female Victims,2.0,20.0,2.0,2.0,3.0,6.0,5.0
+Karnataka,2002,2. Female Victims,1.0,7.0,0.0,1.0,2.0,2.0,1.0
+Kerala,2002,2. Female Victims,3.0,20.0,,4.0,,8.0,5.0
+Madhya Pradesh,2002,2. Female Victims,11.0,47.0,1.0,0.0,3.0,18.0,14.0
+Maharashtra,2002,2. Female Victims,5.0,11.0,0.0,1.0,1.0,1.0,3.0
+Manipur,2002,2. Female Victims,1.0,2.0,,,,,1.0
+Meghalaya,2002,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mizoram,2002,2. Female Victims,,1.0,,,,,1.0
+Nagaland,2002,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Odisha,2002,2. Female Victims,0.0,20.0,0.0,1.0,0.0,13.0,6.0
+Puducherry,2002,2. Female Victims,,1.0,,,,1.0,
+Punjab,2002,2. Female Victims,2.0,29.0,0.0,3.0,1.0,11.0,12.0
+Rajasthan,2002,2. Female Victims,,18.0,,,0.0,15.0,3.0
+Tamil Nadu,2002,2. Female Victims,0.0,7.0,0.0,0.0,1.0,3.0,3.0
+Tripura,2002,2. Female Victims,,1.0,,,,1.0,0.0
+Uttar Pradesh,2002,2. Female Victims,6.0,127.0,2.0,7.0,10.0,68.0,34.0
+Uttarakhand,2002,2. Female Victims,0.0,4.0,,,,3.0,1.0
+West Bengal,2002,2. Female Victims,2.0,51.0,1.0,0.0,0.0,35.0,13.0
+Andhra Pradesh,2003,2. Female Victims,0.0,19.0,0.0,0.0,1.0,9.0,9.0
+Arunachal Pradesh,2003,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2003,2. Female Victims,0.0,18.0,0.0,0.0,0.0,17.0,1.0
+Bihar,2003,2. Female Victims,0.0,19.0,0.0,0.0,3.0,11.0,5.0
+Chandigarh,2003,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chhattisgarh,2003,2. Female Victims,1.0,13.0,0.0,1.0,0.0,6.0,5.0
+Daman & Diu,2003,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Delhi,2003,2. Female Victims,0.0,11.0,0.0,2.0,0.0,4.0,5.0
+Gujarat,2003,2. Female Victims,0.0,19.0,1.0,0.0,3.0,8.0,7.0
+Haryana,2003,2. Female Victims,3.0,11.0,0.0,0.0,1.0,4.0,3.0
+Himachal Pradesh,2003,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Jammu & Kashmir,2003,2. Female Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Jharkhand,2003,2. Female Victims,0.0,34.0,0.0,0.0,2.0,30.0,2.0
+Karnataka,2003,2. Female Victims,1.0,7.0,0.0,1.0,0.0,3.0,2.0
+Kerala,2003,2. Female Victims,5.0,43.0,1.0,,,23.0,14.0
+Madhya Pradesh,2003,2. Female Victims,18.0,162.0,11.0,1.0,13.0,70.0,49.0
+Maharashtra,2003,2. Female Victims,4.0,28.0,0.0,1.0,1.0,13.0,9.0
+Manipur,2003,2. Female Victims,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+Meghalaya,2003,2. Female Victims,0.0,2.0,0.0,0.0,2.0,0.0,0.0
+Mizoram,2003,2. Female Victims,,1.0,,,,0.0,1.0
+Nagaland,2003,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Odisha,2003,2. Female Victims,0.0,146.0,0.0,0.0,0.0,110.0,36.0
+Punjab,2003,2. Female Victims,0.0,25.0,1.0,1.0,0.0,13.0,10.0
+Rajasthan,2003,2. Female Victims,2.0,14.0,1.0,,,8.0,3.0
+Sikkim,2003,2. Female Victims,,2.0,,,,1.0,1.0
+Tamil Nadu,2003,2. Female Victims,0.0,7.0,0.0,1.0,0.0,6.0,0.0
+Uttar Pradesh,2003,2. Female Victims,11.0,118.0,3.0,1.0,14.0,45.0,44.0
+Uttarakhand,2003,2. Female Victims,0.0,2.0,0.0,0.0,0.0,0.0,2.0
+West Bengal,2003,2. Female Victims,2.0,55.0,1.0,0.0,0.0,41.0,11.0
+Andaman & Nicobar Islands,2004,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Andhra Pradesh,2004,2. Female Victims,0.0,22.0,0.0,1.0,0.0,16.0,5.0
+Arunachal Pradesh,2004,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2004,2. Female Victims,1.0,5.0,0.0,0.0,0.0,4.0,0.0
+Bihar,2004,2. Female Victims,0.0,13.0,0.0,0.0,1.0,10.0,2.0
+Chhattisgarh,2004,2. Female Victims,1.0,4.0,0.0,0.0,1.0,1.0,1.0
+Delhi,2004,2. Female Victims,1.0,11.0,0.0,1.0,0.0,5.0,4.0
+Goa,2004,2. Female Victims,,1.0,,,,,1.0
+Gujarat,2004,2. Female Victims,0.0,7.0,0.0,3.0,0.0,1.0,3.0
+Haryana,2004,2. Female Victims,1.0,6.0,1.0,1.0,0.0,1.0,2.0
+Himachal Pradesh,2004,2. Female Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Jammu & Kashmir,2004,2. Female Victims,1.0,5.0,1.0,,,2.0,1.0
+Jharkhand,2004,2. Female Victims,,37.0,,,2.0,32.0,3.0
+Karnataka,2004,2. Female Victims,15.0,80.0,3.0,3.0,1.0,38.0,20.0
+Kerala,2004,2. Female Victims,5.0,72.0,,,,33.0,34.0
+Madhya Pradesh,2004,2. Female Victims,3.0,45.0,0.0,7.0,1.0,21.0,13.0
+Maharashtra,2004,2. Female Victims,2.0,25.0,1.0,3.0,0.0,9.0,10.0
+Manipur,2004,2. Female Victims,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+Meghalaya,2004,2. Female Victims,1.0,4.0,0.0,1.0,0.0,0.0,2.0
+Mizoram,2004,2. Female Victims,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+Nagaland,2004,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Odisha,2004,2. Female Victims,0.0,7.0,0.0,0.0,0.0,3.0,4.0
+Punjab,2004,2. Female Victims,4.0,62.0,1.0,1.0,1.0,28.0,27.0
+Rajasthan,2004,2. Female Victims,,10.0,2.0,,,8.0,
+Tamil Nadu,2004,2. Female Victims,2.0,56.0,52.0,0.0,0.0,0.0,2.0
+Uttar Pradesh,2004,2. Female Victims,9.0,174.0,13.0,4.0,12.0,85.0,51.0
+Uttarakhand,2004,2. Female Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+West Bengal,2004,2. Female Victims,6.0,65.0,0.0,0.0,0.0,36.0,23.0
+Andhra Pradesh,2005,2. Female Victims,3.0,17.0,0.0,0.0,0.0,6.0,8.0
+Arunachal Pradesh,2005,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2005,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bihar,2005,2. Female Victims,2.0,29.0,0.0,0.0,3.0,15.0,9.0
+Chandigarh,2005,2. Female Victims,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+Chhattisgarh,2005,2. Female Victims,1.0,6.0,0.0,0.0,0.0,3.0,2.0
+Delhi,2005,2. Female Victims,,9.0,,2.0,,5.0,2.0
+Goa,2005,2. Female Victims,,2.0,,,,2.0,
+Gujarat,2005,2. Female Victims,0.0,6.0,1.0,0.0,0.0,3.0,2.0
+Haryana,2005,2. Female Victims,2.0,8.0,0.0,0.0,0.0,4.0,2.0
+Himachal Pradesh,2005,2. Female Victims,1.0,3.0,0.0,0.0,0.0,1.0,1.0
+Jammu & Kashmir,2005,2. Female Victims,0.0,5.0,0.0,0.0,0.0,2.0,3.0
+Jharkhand,2005,2. Female Victims,0.0,16.0,0.0,0.0,2.0,9.0,5.0
+Karnataka,2005,2. Female Victims,1.0,10.0,0.0,0.0,0.0,5.0,4.0
+Kerala,2005,2. Female Victims,8.0,32.0,1.0,4.0,2.0,8.0,9.0
+Madhya Pradesh,2005,2. Female Victims,4.0,39.0,3.0,1.0,3.0,21.0,7.0
+Maharashtra,2005,2. Female Victims,4.0,27.0,0.0,3.0,1.0,13.0,6.0
+Manipur,2005,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Meghalaya,2005,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mizoram,2005,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Nagaland,2005,2. Female Victims,0.0,1.0,0.0,1.0,0.0,0.0,0.0
+Odisha,2005,2. Female Victims,1.0,9.0,0.0,0.0,0.0,3.0,5.0
+Puducherry,2005,2. Female Victims,1.0,2.0,,,,,1.0
+Punjab,2005,2. Female Victims,5.0,42.0,1.0,6.0,8.0,8.0,14.0
+Rajasthan,2005,2. Female Victims,,6.0,,1.0,,2.0,3.0
+Sikkim,2005,2. Female Victims,,2.0,,,1.0,1.0,
+Tamil Nadu,2005,2. Female Victims,,2.0,,0.0,,,2.0
+Uttar Pradesh,2005,2. Female Victims,18.0,203.0,8.0,1.0,22.0,88.0,66.0
+Uttarakhand,2005,2. Female Victims,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+West Bengal,2005,2. Female Victims,5.0,49.0,0.0,0.0,0.0,21.0,23.0
+Andaman & Nicobar Islands,2006,2. Female Victims,,1.0,,,,1.0,
+Andhra Pradesh,2006,2. Female Victims,4.0,21.0,0.0,1.0,2.0,7.0,7.0
+Arunachal Pradesh,2006,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2006,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bihar,2006,2. Female Victims,0.0,28.0,0.0,0.0,0.0,20.0,8.0
+Chandigarh,2006,2. Female Victims,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+Chhattisgarh,2006,2. Female Victims,0.0,5.0,0.0,0.0,0.0,2.0,3.0
+Dadra & Nagar Haveli,2006,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Delhi,2006,2. Female Victims,,11.0,,2.0,,5.0,4.0
+Goa,2006,2. Female Victims,,1.0,,,,,1.0
+Gujarat,2006,2. Female Victims,0.0,7.0,0.0,0.0,0.0,6.0,1.0
+Haryana,2006,2. Female Victims,1.0,12.0,,3.0,,4.0,4.0
+Himachal Pradesh,2006,2. Female Victims,0.0,2.0,0.0,0.0,0.0,2.0,0.0
+Jammu & Kashmir,2006,2. Female Victims,0.0,6.0,0.0,0.0,0.0,2.0,4.0
+Jharkhand,2006,2. Female Victims,0.0,16.0,0.0,0.0,3.0,9.0,4.0
+Karnataka,2006,2. Female Victims,0.0,7.0,1.0,1.0,0.0,4.0,1.0
+Kerala,2006,2. Female Victims,3.0,15.0,,4.0,,3.0,5.0
+Madhya Pradesh,2006,2. Female Victims,1.0,19.0,3.0,3.0,0.0,4.0,8.0
+Maharashtra,2006,2. Female Victims,0.0,21.0,0.0,5.0,0.0,8.0,8.0
+Manipur,2006,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Meghalaya,2006,2. Female Victims,0.0,2.0,0.0,1.0,0.0,1.0,0.0
+Mizoram,2006,2. Female Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Nagaland,2006,2. Female Victims,0.0,1.0,0.0,1.0,0.0,0.0,0.0
+Odisha,2006,2. Female Victims,0.0,18.0,0.0,0.0,0.0,9.0,9.0
+Punjab,2006,2. Female Victims,1.0,44.0,,2.0,2.0,26.0,13.0
+Rajasthan,2006,2. Female Victims,2.0,18.0,,,3.0,9.0,4.0
+Tamil Nadu,2006,2. Female Victims,,,,0.0,,,
+Uttar Pradesh,2006,2. Female Victims,15.0,179.0,13.0,3.0,13.0,63.0,72.0
+Uttarakhand,2006,2. Female Victims,0.0,2.0,0.0,0.0,0.0,0.0,2.0
+West Bengal,2006,2. Female Victims,4.0,43.0,0.0,0.0,0.0,23.0,16.0
+Andhra Pradesh,2007,2. Female Victims,7.0,26.0,1.0,0.0,0.0,14.0,4.0
+Arunachal Pradesh,2007,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2007,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bihar,2007,2. Female Victims,1.0,22.0,0.0,0.0,0.0,12.0,9.0
+Chandigarh,2007,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Chhattisgarh,2007,2. Female Victims,0.0,11.0,0.0,2.0,0.0,7.0,2.0
+Delhi,2007,2. Female Victims,,4.0,,,,3.0,1.0
+Goa,2007,2. Female Victims,,1.0,,1.0,,,
+Gujarat,2007,2. Female Victims,0.0,5.0,0.0,1.0,0.0,3.0,1.0
+Haryana,2007,2. Female Victims,1.0,5.0,1.0,0.0,0.0,2.0,1.0
+Himachal Pradesh,2007,2. Female Victims,1.0,3.0,0.0,1.0,0.0,0.0,1.0
+Jammu & Kashmir,2007,2. Female Victims,0.0,8.0,2.0,1.0,1.0,3.0,1.0
+Jharkhand,2007,2. Female Victims,0.0,6.0,0.0,0.0,0.0,2.0,4.0
+Karnataka,2007,2. Female Victims,0.0,4.0,0.0,0.0,1.0,2.0,1.0
+Kerala,2007,2. Female Victims,1.0,14.0,3.0,3.0,1.0,2.0,4.0
+Madhya Pradesh,2007,2. Female Victims,2.0,23.0,1.0,6.0,1.0,7.0,6.0
+Maharashtra,2007,2. Female Victims,3.0,26.0,0.0,3.0,1.0,15.0,4.0
+Manipur,2007,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Meghalaya,2007,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Mizoram,2007,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Nagaland,2007,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Odisha,2007,2. Female Victims,0.0,6.0,0.0,0.0,0.0,1.0,5.0
+Punjab,2007,2. Female Victims,4.0,67.0,1.0,4.0,11.0,38.0,9.0
+Rajasthan,2007,2. Female Victims,2.0,5.0,,1.0,,1.0,1.0
+Tamil Nadu,2007,2. Female Victims,0.0,5.0,0.0,1.0,0.0,2.0,2.0
+Tripura,2007,2. Female Victims,,1.0,,,,,1.0
+Uttar Pradesh,2007,2. Female Victims,13.0,238.0,15.0,4.0,26.0,106.0,74.0
+Uttarakhand,2007,2. Female Victims,,11.0,,,,9.0,2.0
+West Bengal,2007,2. Female Victims,7.0,102.0,1.0,0.0,9.0,50.0,35.0
+Andaman & Nicobar Islands,2008,2. Female Victims,,2.0,,1.0,,,1.0
+Andhra Pradesh,2008,2. Female Victims,3.0,21.0,0.0,1.0,0.0,12.0,5.0
+Arunachal Pradesh,2008,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2008,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bihar,2008,2. Female Victims,1.0,24.0,0.0,0.0,0.0,14.0,9.0
+Chandigarh,2008,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Chhattisgarh,2008,2. Female Victims,0.0,4.0,0.0,1.0,0.0,2.0,1.0
+Delhi,2008,2. Female Victims,,2.0,,,,,2.0
+Goa,2008,2. Female Victims,1.0,8.0,1.0,1.0,0.0,2.0,3.0
+Gujarat,2008,2. Female Victims,3.0,27.0,2.0,4.0,2.0,9.0,7.0
+Haryana,2008,2. Female Victims,1.0,14.0,0.0,0.0,1.0,8.0,4.0
+Himachal Pradesh,2008,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Jammu & Kashmir,2008,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Jharkhand,2008,2. Female Victims,0.0,16.0,0.0,0.0,0.0,11.0,5.0
+Karnataka,2008,2. Female Victims,1.0,18.0,0.0,0.0,0.0,4.0,13.0
+Kerala,2008,2. Female Victims,2.0,17.0,2.0,3.0,1.0,5.0,4.0
+Lakshadweep,2008,2. Female Victims,,0.0,,,,,0.0
+Madhya Pradesh,2008,2. Female Victims,1.0,50.0,8.0,6.0,2.0,19.0,14.0
+Maharashtra,2008,2. Female Victims,5.0,51.0,4.0,3.0,1.0,24.0,14.0
+Manipur,2008,2. Female Victims,0.0,2.0,0.0,0.0,0.0,2.0,0.0
+Meghalaya,2008,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mizoram,2008,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Nagaland,2008,2. Female Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Odisha,2008,2. Female Victims,7.0,32.0,0.0,1.0,2.0,10.0,12.0
+Punjab,2008,2. Female Victims,4.0,27.0,,2.0,,9.0,12.0
+Rajasthan,2008,2. Female Victims,,3.0,1.0,,,,2.0
+Sikkim,2008,2. Female Victims,,1.0,,,,1.0,
+Tamil Nadu,2008,2. Female Victims,1.0,4.0,,0.0,,3.0,
+Uttar Pradesh,2008,2. Female Victims,9.0,222.0,2.0,2.0,20.0,121.0,68.0
+Uttarakhand,2008,2. Female Victims,,6.0,,,,4.0,2.0
+West Bengal,2008,2. Female Victims,2.0,79.0,0.0,0.0,1.0,63.0,13.0
+Andhra Pradesh,2009,2. Female Victims,5.0,25.0,1.0,0.0,0.0,11.0,8.0
+Arunachal Pradesh,2009,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Assam,2009,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bihar,2009,2. Female Victims,1.0,16.0,0.0,0.0,0.0,4.0,11.0
+Chandigarh,2009,2. Female Victims,0.0,2.0,0.0,1.0,0.0,0.0,1.0
+Chhattisgarh,2009,2. Female Victims,1.0,2.0,0.0,0.0,0.0,1.0,0.0
+Delhi,2009,2. Female Victims,0.0,4.0,,,,1.0,3.0
+Goa,2009,2. Female Victims,0.0,3.0,0.0,2.0,0.0,0.0,1.0
+Gujarat,2009,2. Female Victims,1.0,20.0,1.0,4.0,4.0,9.0,1.0
+Haryana,2009,2. Female Victims,1.0,14.0,0.0,4.0,0.0,1.0,8.0
+Himachal Pradesh,2009,2. Female Victims,1.0,1.0,0.0,0.0,0.0,0.0,0.0
+Jammu & Kashmir,2009,2. Female Victims,1.0,10.0,0.0,0.0,1.0,5.0,3.0
+Jharkhand,2009,2. Female Victims,1.0,16.0,1.0,1.0,0.0,10.0,3.0
+Karnataka,2009,2. Female Victims,0.0,29.0,0.0,1.0,1.0,23.0,4.0
+Kerala,2009,2. Female Victims,10.0,59.0,6.0,13.0,3.0,8.0,19.0
+Madhya Pradesh,2009,2. Female Victims,3.0,26.0,2.0,1.0,0.0,11.0,9.0
+Maharashtra,2009,2. Female Victims,3.0,21.0,1.0,3.0,0.0,12.0,2.0
+Manipur,2009,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Meghalaya,2009,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Nagaland,2009,2. Female Victims,,1.0,,,1.0,,
+Odisha,2009,2. Female Victims,0.0,8.0,0.0,0.0,0.0,0.0,8.0
+Punjab,2009,2. Female Victims,3.0,21.0,3.0,1.0,1.0,7.0,6.0
+Rajasthan,2009,2. Female Victims,,10.0,2.0,,,4.0,4.0
+Sikkim,2009,2. Female Victims,,2.0,,1.0,,1.0,
+Tamil Nadu,2009,2. Female Victims,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Tripura,2009,2. Female Victims,,1.0,0.0,0.0,0.0,0.0,1.0
+Uttar Pradesh,2009,2. Female Victims,14.0,259.0,12.0,6.0,17.0,128.0,82.0
+Uttarakhand,2009,2. Female Victims,,8.0,,,,5.0,3.0
+West Bengal,2009,2. Female Victims,16.0,192.0,3.0,6.0,18.0,99.0,50.0
+Andaman & Nicobar Islands,2010,2. Female Victims,,3.0,,,,2.0,1.0
+Andhra Pradesh,2010,2. Female Victims,11.0,28.0,0.0,0.0,0.0,10.0,7.0
+Arunachal Pradesh,2010,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Bihar,2010,2. Female Victims,3.0,78.0,,,1.0,61.0,13.0
+Chhattisgarh,2010,2. Female Victims,0.0,5.0,0.0,0.0,2.0,1.0,2.0
+Delhi,2010,2. Female Victims,3.0,31.0,3.0,6.0,3.0,14.0,2.0
+Goa,2010,2. Female Victims,0.0,1.0,0.0,,0.0,1.0,0.0
+Gujarat,2010,2. Female Victims,0.0,10.0,1.0,0.0,1.0,4.0,4.0
+Haryana,2010,2. Female Victims,1.0,3.0,0.0,0.0,0.0,1.0,1.0
+Himachal Pradesh,2010,2. Female Victims,0.0,3.0,0.0,0.0,0.0,1.0,2.0
+Jammu & Kashmir,2010,2. Female Victims,0.0,4.0,0.0,0.0,0.0,4.0,0.0
+Jharkhand,2010,2. Female Victims,1.0,6.0,0.0,0.0,0.0,1.0,4.0
+Karnataka,2010,2. Female Victims,0.0,29.0,0.0,3.0,0.0,24.0,2.0
+Kerala,2010,2. Female Victims,5.0,23.0,4.0,0.0,0.0,10.0,4.0
+Madhya Pradesh,2010,2. Female Victims,1.0,16.0,1.0,3.0,2.0,3.0,6.0
+Maharashtra,2010,2. Female Victims,3.0,45.0,0.0,5.0,2.0,21.0,14.0
+Manipur,2010,2. Female Victims,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Meghalaya,2010,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Mizoram,2010,2. Female Victims,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Nagaland,2010,2. Female Victims,1.0,4.0,0.0,0.0,0.0,1.0,2.0
+Odisha,2010,2. Female Victims,0.0,18.0,0.0,0.0,0.0,12.0,6.0
+Puducherry,2010,2. Female Victims,1.0,4.0,,1.0,,1.0,1.0
+Punjab,2010,2. Female Victims,6.0,23.0,1.0,0.0,4.0,9.0,3.0
+Rajasthan,2010,2. Female Victims,,8.0,1.0,1.0,,4.0,2.0
+Tamil Nadu,2010,2. Female Victims,0.0,4.0,0.0,1.0,0.0,1.0,2.0
+Tripura,2010,2. Female Victims,,3.0,0.0,2.0,0.0,0.0,1.0
+Uttar Pradesh,2010,2. Female Victims,11.0,225.0,10.0,5.0,8.0,112.0,79.0
+Uttarakhand,2010,2. Female Victims,,11.0,,,,7.0,4.0
+West Bengal,2010,2. Female Victims,14.0,152.0,9.0,1.0,22.0,88.0,18.0
+Andhra Pradesh,2001,3. Total,19.0,149.0,3.0,1.0,5.0,57.0,64.0
+Arunachal Pradesh,2001,3. Total,1.0,6.0,0.0,0.0,0.0,3.0,2.0
+Assam,2001,3. Total,2.0,40.0,0.0,0.0,1.0,20.0,17.0
+Bihar,2001,3. Total,20.0,250.0,3.0,0.0,20.0,128.0,79.0
+Chandigarh,2001,3. Total,0.0,6.0,0.0,0.0,0.0,6.0,0.0
+Chhattisgarh,2001,3. Total,9.0,80.0,2.0,3.0,3.0,37.0,26.0
+Delhi,2001,3. Total,1.0,77.0,2.0,3.0,10.0,35.0,26.0
+Goa,2001,3. Total,2.0,5.0,,,,3.0,
+Gujarat,2001,3. Total,50.0,451.0,44.0,84.0,28.0,120.0,125.0
+Haryana,2001,3. Total,4.0,80.0,0.0,5.0,3.0,38.0,30.0
+Himachal Pradesh,2001,3. Total,1.0,11.0,1.0,0.0,2.0,3.0,4.0
+Jammu & Kashmir,2001,3. Total,0.0,36.0,8.0,1.0,8.0,8.0,11.0
+Jharkhand,2001,3. Total,9.0,143.0,1.0,5.0,12.0,65.0,51.0
+Karnataka,2001,3. Total,5.0,77.0,5.0,4.0,7.0,29.0,27.0
+Kerala,2001,3. Total,10.0,111.0,5.0,5.0,4.0,35.0,52.0
+Madhya Pradesh,2001,3. Total,13.0,125.0,5.0,3.0,7.0,62.0,35.0
+Maharashtra,2001,3. Total,8.0,134.0,6.0,7.0,11.0,66.0,36.0
+Manipur,2001,3. Total,,5.0,,,,3.0,2.0
+Meghalaya,2001,3. Total,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Mizoram,2001,3. Total,2.0,14.0,1.0,0.0,1.0,4.0,6.0
+Nagaland,2001,3. Total,0.0,37.0,0.0,0.0,7.0,19.0,11.0
+Odisha,2001,3. Total,0.0,55.0,0.0,0.0,5.0,34.0,16.0
+Puducherry,2001,3. Total,1.0,1.0,,,,,
+Punjab,2001,3. Total,7.0,80.0,0.0,4.0,2.0,34.0,33.0
+Rajasthan,2001,3. Total,3.0,63.0,,3.0,1.0,21.0,35.0
+Sikkim,2001,3. Total,,7.0,,,,6.0,1.0
+Tamil Nadu,2001,3. Total,6.0,19.0,1.0,1.0,4.0,4.0,3.0
+Uttar Pradesh,2001,3. Total,123.0,1225.0,9.0,5.0,75.0,493.0,520.0
+Uttarakhand,2001,3. Total,6.0,39.0,,,1.0,14.0,18.0
+West Bengal,2001,3. Total,23.0,588.0,20.0,1.0,39.0,274.0,231.0
+Andaman & Nicobar Islands,2002,3. Total,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Andhra Pradesh,2002,3. Total,15.0,203.0,2.0,2.0,7.0,86.0,91.0
+Arunachal Pradesh,2002,3. Total,1.0,6.0,,,,5.0,
+Assam,2002,3. Total,4.0,55.0,0.0,0.0,0.0,29.0,22.0
+Bihar,2002,3. Total,18.0,400.0,1.0,0.0,17.0,201.0,163.0
+Chandigarh,2002,3. Total,0.0,7.0,0.0,0.0,0.0,4.0,3.0
+Chhattisgarh,2002,3. Total,3.0,24.0,1.0,2.0,3.0,9.0,6.0
+Daman & Diu,2002,3. Total,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Delhi,2002,3. Total,3.0,79.0,1.0,8.0,3.0,37.0,27.0
+Goa,2002,3. Total,1.0,6.0,,,,3.0,2.0
+Gujarat,2002,3. Total,6.0,27.0,0.0,0.0,0.0,7.0,14.0
+Haryana,2002,3. Total,2.0,95.0,1.0,3.0,6.0,45.0,38.0
+Himachal Pradesh,2002,3. Total,1.0,6.0,1.0,0.0,0.0,1.0,3.0
+Jammu & Kashmir,2002,3. Total,1.0,32.0,0.0,0.0,2.0,13.0,16.0
+Jharkhand,2002,3. Total,8.0,115.0,5.0,3.0,7.0,45.0,47.0
+Karnataka,2002,3. Total,4.0,59.0,0.0,6.0,6.0,22.0,21.0
+Kerala,2002,3. Total,13.0,210.0,4.0,4.0,1.0,101.0,87.0
+Madhya Pradesh,2002,3. Total,34.0,229.0,15.0,4.0,19.0,91.0,66.0
+Maharashtra,2002,3. Total,14.0,110.0,1.0,4.0,2.0,46.0,43.0
+Manipur,2002,3. Total,2.0,3.0,,,,,1.0
+Meghalaya,2002,3. Total,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Mizoram,2002,3. Total,,5.0,,,2.0,1.0,2.0
+Nagaland,2002,3. Total,0.0,6.0,0.0,0.0,0.0,4.0,2.0
+Odisha,2002,3. Total,1.0,63.0,0.0,1.0,2.0,28.0,31.0
+Puducherry,2002,3. Total,,2.0,,,,1.0,1.0
+Punjab,2002,3. Total,3.0,132.0,0.0,6.0,2.0,58.0,63.0
+Rajasthan,2002,3. Total,4.0,68.0,1.0,,1.0,32.0,30.0
+Sikkim,2002,3. Total,,2.0,,,,,2.0
+Tamil Nadu,2002,3. Total,0.0,37.0,0.0,0.0,5.0,12.0,20.0
+Tripura,2002,3. Total,,1.0,,,,1.0,
+Uttar Pradesh,2002,3. Total,90.0,1282.0,12.0,11.0,76.0,608.0,485.0
+Uttarakhand,2002,3. Total,5.0,48.0,,,,21.0,22.0
+West Bengal,2002,3. Total,17.0,540.0,1.0,0.0,2.0,342.0,178.0
+Andaman & Nicobar Islands,2003,3. Total,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Andhra Pradesh,2003,3. Total,11.0,180.0,0.0,0.0,2.0,95.0,72.0
+Arunachal Pradesh,2003,3. Total,0.0,3.0,0.0,0.0,0.0,3.0,0.0
+Assam,2003,3. Total,0.0,48.0,0.0,0.0,0.0,37.0,11.0
+Bihar,2003,3. Total,21.0,318.0,4.0,0.0,24.0,185.0,84.0
+Chandigarh,2003,3. Total,0.0,2.0,0.0,0.0,0.0,2.0,0.0
+Chhattisgarh,2003,3. Total,4.0,57.0,0.0,1.0,5.0,29.0,18.0
+Dadra & Nagar Haveli,2003,3. Total,0.0,1.0,,,,,1.0
+Daman & Diu,2003,3. Total,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Delhi,2003,3. Total,3.0,79.0,1.0,4.0,2.0,40.0,29.0
+Goa,2003,3. Total,3.0,14.0,,,,5.0,6.0
+Gujarat,2003,3. Total,1.0,75.0,3.0,2.0,7.0,42.0,20.0
+Haryana,2003,3. Total,6.0,82.0,0.0,5.0,5.0,26.0,40.0
+Himachal Pradesh,2003,3. Total,0.0,5.0,1.0,0.0,0.0,1.0,3.0
+Jammu & Kashmir,2003,3. Total,2.0,29.0,0.0,0.0,0.0,14.0,13.0
+Jharkhand,2003,3. Total,4.0,109.0,1.0,0.0,4.0,58.0,42.0
+Karnataka,2003,3. Total,7.0,74.0,2.0,2.0,1.0,23.0,39.0
+Kerala,2003,3. Total,40.0,352.0,6.0,1.0,1.0,205.0,99.0
+Madhya Pradesh,2003,3. Total,28.0,203.0,11.0,1.0,15.0,86.0,62.0
+Maharashtra,2003,3. Total,16.0,146.0,2.0,2.0,3.0,53.0,70.0
+Manipur,2003,3. Total,0.0,6.0,0.0,0.0,0.0,3.0,3.0
+Meghalaya,2003,3. Total,0.0,17.0,1.0,0.0,3.0,12.0,1.0
+Mizoram,2003,3. Total,0.0,3.0,,0.0,0.0,2.0,1.0
+Nagaland,2003,3. Total,0.0,12.0,0.0,0.0,0.0,6.0,6.0
+Odisha,2003,3. Total,1.0,191.0,0.0,0.0,0.0,132.0,58.0
+Punjab,2003,3. Total,7.0,156.0,2.0,2.0,6.0,48.0,91.0
+Rajasthan,2003,3. Total,4.0,61.0,3.0,1.0,1.0,26.0,26.0
+Sikkim,2003,3. Total,,3.0,,,,2.0,1.0
+Tamil Nadu,2003,3. Total,2.0,29.0,1.0,1.0,1.0,11.0,13.0
+Uttar Pradesh,2003,3. Total,141.0,1525.0,21.0,3.0,91.0,637.0,632.0
+Uttarakhand,2003,3. Total,2.0,35.0,0.0,0.0,0.0,12.0,21.0
+West Bengal,2003,3. Total,23.0,486.0,2.0,0.0,2.0,283.0,176.0
+Andaman & Nicobar Islands,2004,3. Total,,2.0,0.0,0.0,0.0,2.0,0.0
+Andhra Pradesh,2004,3. Total,6.0,163.0,1.0,1.0,0.0,90.0,65.0
+Arunachal Pradesh,2004,3. Total,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Assam,2004,3. Total,2.0,63.0,0.0,0.0,0.0,43.0,18.0
+Bihar,2004,3. Total,14.0,280.0,0.0,1.0,10.0,150.0,105.0
+Chandigarh,2004,3. Total,0.0,10.0,0.0,0.0,0.0,2.0,8.0
+Chhattisgarh,2004,3. Total,5.0,25.0,0.0,0.0,3.0,11.0,6.0
+Delhi,2004,3. Total,7.0,111.0,0.0,5.0,2.0,65.0,32.0
+Goa,2004,3. Total,1.0,6.0,,,,1.0,4.0
+Gujarat,2004,3. Total,0.0,33.0,0.0,7.0,2.0,9.0,15.0
+Haryana,2004,3. Total,3.0,65.0,1.0,5.0,1.0,25.0,30.0
+Himachal Pradesh,2004,3. Total,2.0,12.0,0.0,0.0,0.0,3.0,7.0
+Jammu & Kashmir,2004,3. Total,3.0,30.0,1.0,1.0,,9.0,16.0
+Jharkhand,2004,3. Total,4.0,115.0,1.0,,4.0,62.0,44.0
+Karnataka,2004,3. Total,30.0,284.0,5.0,7.0,2.0,121.0,119.0
+Kerala,2004,3. Total,40.0,490.0,8.0,5.0,14.0,234.0,189.0
+Madhya Pradesh,2004,3. Total,14.0,246.0,14.0,11.0,9.0,111.0,87.0
+Maharashtra,2004,3. Total,31.0,214.0,1.0,7.0,2.0,60.0,113.0
+Manipur,2004,3. Total,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Meghalaya,2004,3. Total,1.0,11.0,0.0,1.0,0.0,4.0,5.0
+Mizoram,2004,3. Total,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Nagaland,2004,3. Total,0.0,5.0,0.0,0.0,0.0,2.0,3.0
+Odisha,2004,3. Total,2.0,25.0,0.0,0.0,0.0,9.0,14.0
+Puducherry,2004,3. Total,7.0,14.0,,,,2.0,5.0
+Punjab,2004,3. Total,23.0,222.0,2.0,8.0,7.0,100.0,82.0
+Rajasthan,2004,3. Total,,62.0,2.0,1.0,,31.0,28.0
+Sikkim,2004,3. Total,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Tamil Nadu,2004,3. Total,3.0,119.0,94.0,0.0,0.0,11.0,11.0
+Uttar Pradesh,2004,3. Total,117.0,1436.0,33.0,14.0,77.0,655.0,540.0
+Uttarakhand,2004,3. Total,2.0,29.0,0.0,0.0,0.0,16.0,11.0
+West Bengal,2004,3. Total,39.0,468.0,1.0,0.0,0.0,256.0,172.0
+Andaman & Nicobar Islands,2005,3. Total,,3.0,,,,1.0,2.0
+Andhra Pradesh,2005,3. Total,9.0,111.0,2.0,1.0,2.0,47.0,50.0
+Arunachal Pradesh,2005,3. Total,0.0,5.0,0.0,0.0,0.0,5.0,0.0
+Assam,2005,3. Total,2.0,117.0,0.0,0.0,0.0,69.0,46.0
+Bihar,2005,3. Total,10.0,259.0,1.0,0.0,9.0,145.0,94.0
+Chandigarh,2005,3. Total,0.0,4.0,0.0,0.0,0.0,2.0,2.0
+Chhattisgarh,2005,3. Total,5.0,59.0,1.0,2.0,6.0,18.0,27.0
+Daman & Diu,2005,3. Total,,4.0,,,,4.0,
+Delhi,2005,3. Total,,78.0,3.0,4.0,4.0,36.0,31.0
+Goa,2005,3. Total,1.0,5.0,,,,2.0,2.0
+Gujarat,2005,3. Total,1.0,37.0,1.0,1.0,0.0,16.0,18.0
+Haryana,2005,3. Total,4.0,59.0,0.0,4.0,2.0,24.0,25.0
+Himachal Pradesh,2005,3. Total,2.0,22.0,0.0,0.0,1.0,10.0,9.0
+Jammu & Kashmir,2005,3. Total,1.0,37.0,0.0,1.0,0.0,18.0,17.0
+Jharkhand,2005,3. Total,0.0,95.0,0.0,0.0,8.0,44.0,43.0
+Karnataka,2005,3. Total,4.0,82.0,1.0,0.0,3.0,37.0,37.0
+Kerala,2005,3. Total,24.0,110.0,1.0,6.0,5.0,30.0,44.0
+Madhya Pradesh,2005,3. Total,19.0,226.0,15.0,6.0,15.0,96.0,75.0
+Maharashtra,2005,3. Total,12.0,114.0,2.0,10.0,4.0,42.0,44.0
+Manipur,2005,3. Total,0.0,4.0,0.0,0.0,0.0,2.0,2.0
+Meghalaya,2005,3. Total,1.0,2.0,0.0,0.0,0.0,1.0,0.0
+Mizoram,2005,3. Total,0.0,5.0,0.0,0.0,0.0,5.0,0.0
+Nagaland,2005,3. Total,0.0,8.0,0.0,1.0,0.0,2.0,5.0
+Odisha,2005,3. Total,2.0,55.0,2.0,4.0,1.0,24.0,22.0
+Puducherry,2005,3. Total,2.0,8.0,,,,1.0,5.0
+Punjab,2005,3. Total,40.0,295.0,8.0,15.0,27.0,94.0,111.0
+Rajasthan,2005,3. Total,6.0,59.0,1.0,2.0,4.0,20.0,26.0
+Sikkim,2005,3. Total,,2.0,,,1.0,1.0,
+Tamil Nadu,2005,3. Total,2.0,34.0,1.0,,1.0,14.0,16.0
+Tripura,2005,3. Total,1.0,1.0,,,,,
+Uttar Pradesh,2005,3. Total,157.0,1551.0,32.0,10.0,112.0,656.0,584.0
+Uttarakhand,2005,3. Total,1.0,30.0,0.0,0.0,0.0,19.0,10.0
+West Bengal,2005,3. Total,27.0,408.0,0.0,0.0,0.0,225.0,156.0
+Andaman & Nicobar Islands,2006,3. Total,,1.0,,,,1.0,
+Andhra Pradesh,2006,3. Total,9.0,141.0,2.0,1.0,4.0,67.0,58.0
+Arunachal Pradesh,2006,3. Total,0.0,3.0,0.0,0.0,0.0,1.0,2.0
+Assam,2006,3. Total,0.0,32.0,0.0,0.0,0.0,18.0,14.0
+Bihar,2006,3. Total,12.0,326.0,0.0,0.0,0.0,194.0,120.0
+Chandigarh,2006,3. Total,0.0,8.0,0.0,0.0,0.0,5.0,3.0
+Chhattisgarh,2006,3. Total,2.0,24.0,2.0,1.0,0.0,7.0,12.0
+Dadra & Nagar Haveli,2006,3. Total,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Delhi,2006,3. Total,2.0,78.0,,2.0,3.0,33.0,38.0
+Goa,2006,3. Total,,3.0,1.0,,,,2.0
+Gujarat,2006,3. Total,1.0,27.0,1.0,0.0,1.0,11.0,13.0
+Haryana,2006,3. Total,5.0,59.0,,3.0,3.0,22.0,26.0
+Himachal Pradesh,2006,3. Total,0.0,21.0,0.0,0.0,0.0,8.0,13.0
+Jammu & Kashmir,2006,3. Total,1.0,40.0,0.0,0.0,0.0,23.0,16.0
+Jharkhand,2006,3. Total,3.0,97.0,3.0,0.0,10.0,43.0,38.0
+Karnataka,2006,3. Total,4.0,71.0,1.0,4.0,2.0,34.0,26.0
+Kerala,2006,3. Total,21.0,117.0,4.0,5.0,1.0,29.0,57.0
+Madhya Pradesh,2006,3. Total,17.0,138.0,5.0,15.0,7.0,42.0,52.0
+Maharashtra,2006,3. Total,10.0,110.0,4.0,7.0,1.0,48.0,40.0
+Manipur,2006,3. Total,0.0,4.0,0.0,0.0,0.0,3.0,1.0
+Meghalaya,2006,3. Total,0.0,8.0,0.0,1.0,0.0,5.0,2.0
+Mizoram,2006,3. Total,0.0,10.0,0.0,0.0,1.0,4.0,5.0
+Nagaland,2006,3. Total,0.0,8.0,0.0,1.0,0.0,5.0,2.0
+Odisha,2006,3. Total,0.0,58.0,0.0,0.0,0.0,35.0,23.0
+Puducherry,2006,3. Total,1.0,3.0,,,,1.0,1.0
+Punjab,2006,3. Total,9.0,195.0,4.0,3.0,8.0,96.0,75.0
+Rajasthan,2006,3. Total,4.0,79.0,2.0,,6.0,31.0,36.0
+Sikkim,2006,3. Total,,3.0,,1.0,,,2.0
+Tamil Nadu,2006,3. Total,4.0,22.0,1.0,1.0,1.0,7.0,8.0
+Tripura,2006,3. Total,,1.0,1.0,,,,
+Uttar Pradesh,2006,3. Total,148.0,1543.0,35.0,9.0,72.0,591.0,688.0
+Uttarakhand,2006,3. Total,1.0,40.0,0.0,0.0,0.0,19.0,20.0
+West Bengal,2006,3. Total,21.0,402.0,0.0,0.0,0.0,231.0,150.0
+Andaman & Nicobar Islands,2007,3. Total,,1.0,1.0,,,,
+Andhra Pradesh,2007,3. Total,26.0,162.0,2.0,2.0,2.0,76.0,54.0
+Arunachal Pradesh,2007,3. Total,0.0,2.0,0.0,0.0,0.0,0.0,2.0
+Assam,2007,3. Total,0.0,109.0,0.0,0.0,0.0,61.0,48.0
+Bihar,2007,3. Total,11.0,262.0,0.0,0.0,1.0,154.0,96.0
+Chandigarh,2007,3. Total,1.0,8.0,0.0,0.0,0.0,2.0,5.0
+Chhattisgarh,2007,3. Total,2.0,42.0,0.0,4.0,2.0,22.0,12.0
+Delhi,2007,3. Total,3.0,97.0,,1.0,1.0,52.0,40.0
+Goa,2007,3. Total,2.0,7.0,,1.0,,1.0,3.0
+Gujarat,2007,3. Total,0.0,21.0,2.0,5.0,0.0,9.0,5.0
+Haryana,2007,3. Total,3.0,83.0,2.0,0.0,4.0,39.0,35.0
+Himachal Pradesh,2007,3. Total,1.0,9.0,0.0,1.0,0.0,0.0,7.0
+Jammu & Kashmir,2007,3. Total,0.0,28.0,3.0,2.0,1.0,11.0,11.0
+Jharkhand,2007,3. Total,2.0,92.0,0.0,0.0,6.0,44.0,40.0
+Karnataka,2007,3. Total,1.0,55.0,0.0,2.0,2.0,26.0,24.0
+Kerala,2007,3. Total,15.0,98.0,5.0,5.0,2.0,26.0,45.0
+Madhya Pradesh,2007,3. Total,11.0,155.0,7.0,16.0,12.0,59.0,50.0
+Maharashtra,2007,3. Total,13.0,148.0,1.0,6.0,7.0,69.0,52.0
+Manipur,2007,3. Total,0.0,2.0,0.0,1.0,0.0,1.0,0.0
+Meghalaya,2007,3. Total,0.0,9.0,0.0,0.0,0.0,7.0,2.0
+Mizoram,2007,3. Total,0.0,4.0,0.0,0.0,0.0,3.0,1.0
+Nagaland,2007,3. Total,0.0,8.0,0.0,0.0,0.0,8.0,0.0
+Odisha,2007,3. Total,0.0,46.0,0.0,0.0,0.0,38.0,8.0
+Puducherry,2007,3. Total,,3.0,1.0,1.0,,,1.0
+Punjab,2007,3. Total,13.0,225.0,5.0,9.0,15.0,86.0,97.0
+Rajasthan,2007,3. Total,8.0,64.0,1.0,3.0,3.0,17.0,32.0
+Sikkim,2007,3. Total,,3.0,,,,1.0,2.0
+Tamil Nadu,2007,3. Total,3.0,30.0,2.0,2.0,0.0,10.0,13.0
+Tripura,2007,3. Total,,2.0,,,,,2.0
+Uttar Pradesh,2007,3. Total,163.0,1622.0,45.0,13.0,100.0,712.0,589.0
+Uttarakhand,2007,3. Total,2.0,50.0,,,,32.0,16.0
+West Bengal,2007,3. Total,13.0,394.0,4.0,6.0,32.0,216.0,123.0
+Andaman & Nicobar Islands,2008,3. Total,,2.0,,1.0,,,1.0
+Andhra Pradesh,2008,3. Total,22.0,172.0,0.0,3.0,8.0,63.0,76.0
+Arunachal Pradesh,2008,3. Total,0.0,2.0,0.0,0.0,0.0,1.0,1.0
+Assam,2008,3. Total,0.0,71.0,0.0,0.0,0.0,46.0,25.0
+Bihar,2008,3. Total,28.0,386.0,0.0,0.0,0.0,195.0,163.0
+Chandigarh,2008,3. Total,0.0,6.0,0.0,0.0,0.0,6.0,0.0
+Chhattisgarh,2008,3. Total,0.0,18.0,0.0,3.0,0.0,6.0,9.0
+Delhi,2008,3. Total,2.0,66.0,1.0,1.0,1.0,40.0,21.0
+Goa,2008,3. Total,3.0,21.0,2.0,2.0,0.0,3.0,11.0
+Gujarat,2008,3. Total,7.0,99.0,5.0,11.0,3.0,42.0,31.0
+Haryana,2008,3. Total,4.0,97.0,1.0,5.0,3.0,38.0,46.0
+Himachal Pradesh,2008,3. Total,0.0,5.0,0.0,0.0,0.0,2.0,3.0
+Jammu & Kashmir,2008,3. Total,1.0,36.0,0.0,0.0,1.0,23.0,11.0
+Jharkhand,2008,3. Total,3.0,112.0,0.0,0.0,0.0,80.0,29.0
+Karnataka,2008,3. Total,6.0,84.0,1.0,2.0,1.0,27.0,47.0
+Kerala,2008,3. Total,19.0,96.0,3.0,7.0,1.0,29.0,37.0
+Lakshadweep,2008,3. Total,,0.0,,,,,0.0
+Madhya Pradesh,2008,3. Total,21.0,239.0,12.0,16.0,7.0,98.0,85.0
+Maharashtra,2008,3. Total,20.0,201.0,8.0,10.0,2.0,65.0,96.0
+Manipur,2008,3. Total,1.0,4.0,0.0,0.0,0.0,2.0,1.0
+Meghalaya,2008,3. Total,0.0,6.0,0.0,0.0,0.0,5.0,1.0
+Mizoram,2008,3. Total,0.0,6.0,0.0,0.0,0.0,5.0,1.0
+Nagaland,2008,3. Total,0.0,14.0,0.0,0.0,0.0,10.0,4.0
+Odisha,2008,3. Total,17.0,84.0,0.0,1.0,6.0,30.0,30.0
+Puducherry,2008,3. Total,1.0,3.0,,,,2.0,
+Punjab,2008,3. Total,12.0,155.0,4.0,7.0,3.0,55.0,74.0
+Rajasthan,2008,3. Total,4.0,54.0,1.0,2.0,2.0,19.0,26.0
+Sikkim,2008,3. Total,,6.0,,,,6.0,
+Tamil Nadu,2008,3. Total,2.0,28.0,,1.0,,11.0,14.0
+Tripura,2008,3. Total,,2.0,,,1.0,,1.0
+Uttar Pradesh,2008,3. Total,123.0,1497.0,11.0,6.0,70.0,766.0,521.0
+Uttarakhand,2008,3. Total,3.0,40.0,,,,21.0,16.0
+West Bengal,2008,3. Total,33.0,488.0,0.0,0.0,2.0,245.0,208.0
+Andaman & Nicobar Islands,2009,3. Total,2.0,4.0,,,,,2.0
+Andhra Pradesh,2009,3. Total,28.0,138.0,1.0,1.0,1.0,48.0,59.0
+Arunachal Pradesh,2009,3. Total,0.0,5.0,0.0,0.0,0.0,0.0,5.0
+Assam,2009,3. Total,0.0,35.0,0.0,0.0,0.0,24.0,11.0
+Bihar,2009,3. Total,16.0,243.0,0.0,0.0,0.0,132.0,95.0
+Chandigarh,2009,3. Total,0.0,8.0,0.0,2.0,0.0,3.0,3.0
+Chhattisgarh,2009,3. Total,2.0,19.0,0.0,2.0,0.0,4.0,11.0
+Dadra & Nagar Haveli,2009,3. Total,,1.0,,,,,1.0
+Daman & Diu,2009,3. Total,,1.0,,,,1.0,
+Delhi,2009,3. Total,3.0,87.0,1.0,,3.0,42.0,38.0
+Goa,2009,3. Total,2.0,19.0,0.0,2.0,1.0,11.0,3.0
+Gujarat,2009,3. Total,1.0,60.0,3.0,5.0,5.0,31.0,15.0
+Haryana,2009,3. Total,8.0,103.0,0.0,6.0,1.0,44.0,44.0
+Himachal Pradesh,2009,3. Total,4.0,13.0,0.0,0.0,0.0,3.0,6.0
+Jammu & Kashmir,2009,3. Total,1.0,34.0,0.0,0.0,3.0,15.0,15.0
+Jharkhand,2009,3. Total,7.0,104.0,1.0,2.0,3.0,43.0,48.0
+Karnataka,2009,3. Total,3.0,127.0,0.0,2.0,3.0,78.0,41.0
+Kerala,2009,3. Total,33.0,187.0,11.0,19.0,11.0,33.0,80.0
+Madhya Pradesh,2009,3. Total,5.0,141.0,8.0,9.0,6.0,64.0,49.0
+Maharashtra,2009,3. Total,19.0,115.0,3.0,13.0,2.0,40.0,38.0
+Manipur,2009,3. Total,0.0,2.0,0.0,1.0,1.0,0.0,0.0
+Meghalaya,2009,3. Total,0.0,13.0,0.0,0.0,0.0,9.0,4.0
+Mizoram,2009,3. Total,1.0,8.0,,,,2.0,5.0
+Nagaland,2009,3. Total,,7.0,,,1.0,,6.0
+Odisha,2009,3. Total,0.0,48.0,0.0,0.0,0.0,21.0,27.0
+Puducherry,2009,3. Total,,5.0,,2.0,,1.0,2.0
+Punjab,2009,3. Total,12.0,133.0,5.0,5.0,4.0,42.0,65.0
+Rajasthan,2009,3. Total,6.0,128.0,3.0,,2.0,56.0,61.0
+Sikkim,2009,3. Total,,3.0,0.0,1.0,,2.0,
+Tamil Nadu,2009,3. Total,3.0,26.0,0.0,1.0,1.0,7.0,14.0
+Tripura,2009,3. Total,0.0,2.0,0.0,0.0,0.0,0.0,2.0
+Uttar Pradesh,2009,3. Total,131.0,1455.0,26.0,11.0,56.0,688.0,543.0
+Uttarakhand,2009,3. Total,6.0,51.0,,,,24.0,21.0
+West Bengal,2009,3. Total,57.0,957.0,11.0,13.0,58.0,483.0,335.0
+Andaman & Nicobar Islands,2010,3. Total,,4.0,,,,2.0,2.0
+Andhra Pradesh,2010,3. Total,26.0,157.0,0.0,1.0,2.0,64.0,64.0
+Arunachal Pradesh,2010,3. Total,0.0,3.0,0.0,0.0,0.0,2.0,1.0
+Assam,2010,3. Total,,46.0,,,,33.0,13.0
+Bihar,2010,3. Total,19.0,344.0,,,9.0,225.0,91.0
+Chandigarh,2010,3. Total,0.0,9.0,0.0,0.0,0.0,1.0,8.0
+Chhattisgarh,2010,3. Total,4.0,30.0,0.0,3.0,3.0,7.0,13.0
+Dadra & Nagar Haveli,2010,3. Total,1.0,1.0,,,,,
+Daman & Diu,2010,3. Total,,1.0,,,,1.0,
+Delhi,2010,3. Total,6.0,144.0,12.0,13.0,7.0,75.0,31.0
+Goa,2010,3. Total,0.0,4.0,0.0,1.0,0.0,1.0,2.0
+Gujarat,2010,3. Total,7.0,79.0,2.0,0.0,1.0,36.0,33.0
+Haryana,2010,3. Total,4.0,69.0,0.0,1.0,1.0,33.0,30.0
+Himachal Pradesh,2010,3. Total,2.0,12.0,0.0,0.0,1.0,2.0,7.0
+Jammu & Kashmir,2010,3. Total,3.0,26.0,0.0,0.0,0.0,13.0,10.0
+Jharkhand,2010,3. Total,3.0,98.0,0.0,0.0,4.0,44.0,47.0
+Karnataka,2010,3. Total,6.0,155.0,0.0,3.0,1.0,96.0,49.0
+Kerala,2010,3. Total,26.0,132.0,4.0,2.0,1.0,51.0,48.0
+Madhya Pradesh,2010,3. Total,4.0,128.0,4.0,11.0,4.0,51.0,54.0
+Maharashtra,2010,3. Total,21.0,223.0,5.0,11.0,7.0,113.0,66.0
+Manipur,2010,3. Total,0.0,1.0,0.0,0.0,0.0,1.0,0.0
+Meghalaya,2010,3. Total,0.0,8.0,1.0,0.0,1.0,3.0,3.0
+Mizoram,2010,3. Total,1.0,13.0,0.0,0.0,0.0,5.0,7.0
+Nagaland,2010,3. Total,3.0,15.0,1.0,0.0,0.0,5.0,6.0
+Odisha,2010,3. Total,0.0,37.0,0.0,0.0,0.0,21.0,16.0
+Puducherry,2010,3. Total,5.0,17.0,,2.0,,4.0,6.0
+Punjab,2010,3. Total,18.0,157.0,3.0,4.0,10.0,57.0,65.0
+Rajasthan,2010,3. Total,9.0,104.0,1.0,1.0,3.0,37.0,53.0
+Sikkim,2010,3. Total,,2.0,,,,1.0,1.0
+Tamil Nadu,2010,3. Total,3.0,33.0,0.0,2.0,2.0,10.0,16.0
+Tripura,2010,3. Total,0.0,8.0,0.0,3.0,1.0,2.0,2.0
+Uttar Pradesh,2010,3. Total,137.0,1411.0,26.0,9.0,40.0,699.0,500.0
+Uttarakhand,2010,3. Total,2.0,60.0,,,,34.0,24.0
+West Bengal,2010,3. Total,56.0,630.0,11.0,1.0,25.0,403.0,134.0
