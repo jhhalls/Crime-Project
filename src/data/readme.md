@@ -3,15 +3,14 @@
 
 This script downloads the “Crime in India” dataset from Kaggle and saves it to a specified local directory. It ensures the directory exists before downloading the dataset.
 
-🚀 How to Use
-	1.	Install dependencies:
+🚀 How to Use:
+1.	Install dependencies: 
 ```pip install kagglehub```
 
-	2.	Set up Kaggle API:
+2.	Set up Kaggle API:
 		•	Download kaggle.json from Kaggle (Account Settings > API).
 		•	Place it in ~/.kaggle/ (Linux/macOS) or %HOMEPATH%\.kaggle\ (Windows).
-	3.	Run the script:
-
+3.	Run the script: 
 ```python download_data.py```
 
 
