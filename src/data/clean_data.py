@@ -73,10 +73,6 @@ def fix_data_types(df):
     print(df.info())
     return df
 
-
-import os
-import pandas as pd
-
 def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
     """
     Saves cleaned DataFrames to the specified directory with renamed files
