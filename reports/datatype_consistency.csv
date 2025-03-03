@@ -1,1 +1,752 @@
-
+Column Name,Inconsistent Data Types Across Files,Data Types by File
+state/ut,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'object', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'object', 'District_wise_crimes_committed_against_women_2013.csv': 'object', 'District_wise_crimes_committed_against_SC_2001_2012.csv': 'object', 'Crime_by_place_of_occurrence_2001_2012.csv': 'object', 'Crime_by_place_of_occurrence_2013.csv': 'object', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'object', 'District_wise_crimes_committed_against_SC_2013.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'object', 'District_wise_crimes_committed_IPC_2013.csv': 'object', 'District_wise_crimes_committed_against_children_2013.csv': 'object', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'object', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'object', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'object', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'object', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'object', 'Juvenile_apprehended_state_IPC.csv': 'object', 'District_wise_crimes_committed_against_ST_2013.csv': 'object', 'Juvenile_apprehended_state_SLL.csv': 'object', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'object', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'object', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'object', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'object'}"
+crime_head,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'object', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'object', 'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'object', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'object', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'object', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'object', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'object', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'object', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'object'}"
+male_below_18_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+female_below_18_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+male_between_18-30_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+female_between_18-30_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+male_between_30-45_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+female_between_30-45_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+male_between_45-60_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+female_between_45-60_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+male_above_60_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+female_above_60_years,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+male_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+female_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+grand_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2013.csv': 'int64', 'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2013.csv': 'int64'}"
+states/uts,False,"{'Crime_by_place_of_occurrence_2014.csv': 'object', 'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'object', 'District_wise_crimes_committed_against_women_2014.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'object', 'District_wise_crimes_committed_IPC_2014.csv': 'object', 'District_wise_crimes_committed_against_SC_2014.csv': 'object', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'object', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'object', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'object', 'District_wise_crimes_committed_against_ST_2014.csv': 'object'}"
+year,False,"{'Crime_by_place_of_occurrence_2014.csv': 'int64', 'Arrests_under_crime_against_women.csv': 'int64', 'Juveniles_arrested_Education.csv': 'int64', 'Offenders_known_to_the_victim.csv': 'int64', 'Human_rights_violation_by_police.csv': 'int64', 'Anti_corruption_arrests.csv': 'int64', 'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'Police_natural_death_and_suicide.csv': 'int64', 'Home_guards_and_auxilliary_force.csv': 'int64', 'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'Period_of_trials_by_courts.csv': 'int64', 'Police_killed_or_injured_on_duty.csv': 'int64', 'Unidentified_dead_bodies_recovered_and_inquest_conducted.csv': 'int64', 'Serious_fraud.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Juveniles_arrested_Family_background.csv': 'int64', 'Complaints_against_police.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'Property_stolen_and_recovered.csv': 'int64', 'Specific_purpose_of_kidnapping_and_abduction.csv': 'int64', 'Persons_arrested_under_recidivism.csv': 'int64', 'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'Custodial_death_others.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Nature_of_complaints_received_by_police.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'Use_of_fire_arms_in_murder_cases.csv': 'int64', 'Juveniles_arrested_Recidivism.csv': 'int64', 'Cases_under_crime_against_women.csv': 'int64', 'Custodial_death_person_remanded.csv': 'int64', 'Trial_of_violent_crimes_by_courts.csv': 'int64', 'Police_housing.csv': 'int64', 'Anti_corruprion_cases.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64', 'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'int64', 'Juveniles_arrested_and_their_disposal.csv': 'int64', 'CH_not_murder_victim_age_sex.csv': 'int64', 'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64', 'Escapes_from_police_custody.csv': 'int64', 'Custodial_death_person_not_remanded.csv': 'int64', 'Casualties_under_police_firing_and_lathi_charge.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64', 'Juvenile_apprehended_state_IPC.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64', 'Auto_theft.csv': 'int64', 'Property_stolen_and_recovered_nature_of_property.csv': 'int64', 'Victims_of_rape.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64', 'Custodial_death_during_production.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64', 'Custodial_death_during_hospitalization_or_treatment.csv': 'int64', 'Police_strength_actual_and_sanctioned.csv': 'int64', 'Murder_victim_age_sex.csv': 'int64', 'Juveniles_arrested_Economic_setup.csv': 'int64'}"
+residence_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+residence_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+highways_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+riverorsea_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+railways_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'float64'}
+religious_places_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+religious_places_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+atm_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+bank_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+commest_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+otherplaces_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_dacoity_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_dacoity_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_robbery_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_robbery_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_burglary_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_burglary_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'float64'}
+total_theft_cases_reported,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+total_theft_value_of_property_stolen,False,{'Crime_by_place_of_occurrence_2014.csv': 'int64'}
+area_name,False,"{'Arrests_under_crime_against_women.csv': 'object', 'Juveniles_arrested_Education.csv': 'object', 'Offenders_known_to_the_victim.csv': 'object', 'Human_rights_violation_by_police.csv': 'object', 'Anti_corruption_arrests.csv': 'object', 'Police_natural_death_and_suicide.csv': 'object', 'Home_guards_and_auxilliary_force.csv': 'object', 'Period_of_trials_by_courts.csv': 'object', 'Police_killed_or_injured_on_duty.csv': 'object', 'Unidentified_dead_bodies_recovered_and_inquest_conducted.csv': 'object', 'Serious_fraud.csv': 'object', 'Juveniles_arrested_Family_background.csv': 'object', 'Complaints_against_police.csv': 'object', 'Property_stolen_and_recovered.csv': 'object', 'Specific_purpose_of_kidnapping_and_abduction.csv': 'object', 'Persons_arrested_under_recidivism.csv': 'object', 'Custodial_death_others.csv': 'object', 'Nature_of_complaints_received_by_police.csv': 'object', 'Use_of_fire_arms_in_murder_cases.csv': 'object', 'Juveniles_arrested_Recidivism.csv': 'object', 'Cases_under_crime_against_women.csv': 'object', 'Custodial_death_person_remanded.csv': 'object', 'Trial_of_violent_crimes_by_courts.csv': 'object', 'Police_housing.csv': 'object', 'Anti_corruprion_cases.csv': 'object', 'Juveniles_arrested_and_their_disposal.csv': 'object', 'CH_not_murder_victim_age_sex.csv': 'object', 'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'object', 'Escapes_from_police_custody.csv': 'object', 'Custodial_death_person_not_remanded.csv': 'object', 'Casualties_under_police_firing_and_lathi_charge.csv': 'object', 'Auto_theft.csv': 'object', 'Property_stolen_and_recovered_nature_of_property.csv': 'object', 'Victims_of_rape.csv': 'object', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'object', 'Custodial_death_during_production.csv': 'object', 'Custodial_death_during_hospitalization_or_treatment.csv': 'object', 'Police_strength_actual_and_sanctioned.csv': 'object', 'Murder_victim_age_sex.csv': 'object', 'Juveniles_arrested_Economic_setup.csv': 'object'}"
+group_name,False,"{'Arrests_under_crime_against_women.csv': 'object', 'Human_rights_violation_by_police.csv': 'object', 'Police_natural_death_and_suicide.csv': 'object', 'Period_of_trials_by_courts.csv': 'object', 'Police_killed_or_injured_on_duty.csv': 'object', 'Serious_fraud.csv': 'object', 'Property_stolen_and_recovered.csv': 'object', 'Specific_purpose_of_kidnapping_and_abduction.csv': 'object', 'Custodial_death_others.csv': 'object', 'Cases_under_crime_against_women.csv': 'object', 'Custodial_death_person_remanded.csv': 'object', 'Trial_of_violent_crimes_by_courts.csv': 'object', 'Police_housing.csv': 'object', 'Custodial_death_person_not_remanded.csv': 'object', 'Casualties_under_police_firing_and_lathi_charge.csv': 'object', 'Auto_theft.csv': 'object', 'Property_stolen_and_recovered_nature_of_property.csv': 'object', 'Custodial_death_during_production.csv': 'object', 'Custodial_death_during_hospitalization_or_treatment.csv': 'object', 'Police_strength_actual_and_sanctioned.csv': 'object', 'Murder_victim_age_sex.csv': 'object'}"
+sub_group_name,False,"{'Arrests_under_crime_against_women.csv': 'object', 'Juveniles_arrested_Education.csv': 'object', 'Human_rights_violation_by_police.csv': 'object', 'Period_of_trials_by_courts.csv': 'object', 'Police_killed_or_injured_on_duty.csv': 'object', 'Serious_fraud.csv': 'object', 'Juveniles_arrested_Family_background.csv': 'object', 'Property_stolen_and_recovered.csv': 'object', 'Specific_purpose_of_kidnapping_and_abduction.csv': 'object', 'Custodial_death_others.csv': 'object', 'Juveniles_arrested_Recidivism.csv': 'object', 'Cases_under_crime_against_women.csv': 'object', 'Custodial_death_person_remanded.csv': 'object', 'Trial_of_violent_crimes_by_courts.csv': 'object', 'Police_housing.csv': 'object', 'CH_not_murder_victim_age_sex.csv': 'object', 'Custodial_death_person_not_remanded.csv': 'object', 'Auto_theft.csv': 'object', 'Property_stolen_and_recovered_nature_of_property.csv': 'object', 'Custodial_death_during_production.csv': 'object', 'Custodial_death_during_hospitalization_or_treatment.csv': 'object', 'Police_strength_actual_and_sanctioned.csv': 'object', 'Murder_victim_age_sex.csv': 'object', 'Juveniles_arrested_Economic_setup.csv': 'object'}"
+persons_acquitted,False,"{'Arrests_under_crime_against_women.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_against_whom_cases_compounded_or_withdrawn,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_arrested,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_chargesheeted,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_convicted,False,"{'Arrests_under_crime_against_women.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_in_custody_or_on_bail_during_investigation_at_year_beginning,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_in_custody_or_on_bail_during_investigation_at_year_end,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_in_custody_or_on_bail_during_trial_at_year_end,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_released_or_freed_by_police_or_magistrate_before_trial_for_want_of_evidence_or_any_other_reason,False,"{'Arrests_under_crime_against_women.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_trial_completed,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+persons_under_trial_at_year_beginning,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+total_persons_under_trial,False,{'Arrests_under_crime_against_women.csv': 'int64'}
+education_above_primary_but_below_matric_or_higher_secondary,False,{'Juveniles_arrested_Education.csv': 'int64'}
+education_illiterate,False,{'Juveniles_arrested_Education.csv': 'int64'}
+education_matric_or_higher_secondary_&_above,False,{'Juveniles_arrested_Education.csv': 'int64'}
+education_total,False,{'Juveniles_arrested_Education.csv': 'int64'}
+education_upto_primary,False,{'Juveniles_arrested_Education.csv': 'int64'}
+no_of_cases_in_which_offenders_were_known_to_the_victims,False,{'Offenders_known_to_the_victim.csv': 'int64'}
+no_of_cases_in_which_offenders_were_neighbours,False,{'Offenders_known_to_the_victim.csv': 'int64'}
+no_of_cases_in_which_offenders_were_other_known_persons,False,{'Offenders_known_to_the_victim.csv': 'int64'}
+no_of_cases_in_which_offenders_were_parentsclose_family_members,False,{'Offenders_known_to_the_victim.csv': 'int64'}
+no_of_cases_in_which_offenders_were_relatives,False,{'Offenders_known_to_the_victim.csv': 'int64'}
+cases_registered_under_human_rights_violations,False,{'Human_rights_violation_by_police.csv': 'float64'}
+policemen_chargesheeted,False,{'Human_rights_violation_by_police.csv': 'float64'}
+policemen_convicted,False,{'Human_rights_violation_by_police.csv': 'float64'}
+aca01_no_of_persons_in_custody_or_on_bail_during_the_stage_of_investigation_at_the_beginning_of_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca02_no_of_persons_arrested_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca04_no_of_persons_in_custody_or_on_bail_during_the_stage_of_investigation_at_the_end_of_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca05_no_of_persons_in_whose_cases_charge_sheets_were_laid_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca06_no_of_persons_under_trial_at_the_beginning_of_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca07_total_no_of_persons_under_trial_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca08_no_of_persons_whose_cases_were_withdrawn_or_otherwise_disposed_off_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca09_no_of_persons_in_custody_or_on_bail_during_the_stage_of_trial_at_the_end_of_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca10_no_of_persons_in_whose_cases_trials_were_completed_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca11_no_of_persons_convicted_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca12_no_of_persons_acquitted_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca13_percentage_of_persons_convicted_to_total_persons_in_whose_cases_trials_were_completed_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca14_no_of_persons_involved_in_the_cases_reported_for_regular_departmental_action_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca15_no_of_persons_involved_in_the_cases_reported_for_suitable_action_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca16_no_of_persons_punished_departmentally_during_the_year:,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca161_no_of_persons_dismissed_from_service_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca162_no_of_persons_removed_from_service_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca163_no_of_persons_awarded_other_major_punishments_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca164_no_of_persons_awarded_minor_punishments_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca171_no_of_group_`a'_officers_out_of_above,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca172_no_of_group_`b'_officers_out_of_above,False,{'Anti_corruption_arrests.csv': 'float64'}
+aca19_no_of_private_persons_involved_during_the_year,False,{'Anti_corruption_arrests.csv': 'float64'}
+district,False,"{'District_wise_crimes_committed_against_women_2013.csv': 'object', 'District_wise_crimes_committed_against_SC_2001_2012.csv': 'object', 'District_wise_crimes_committed_against_women_2014.csv': 'object', 'District_wise_crimes_committed_IPC_2014.csv': 'object', 'District_wise_crimes_committed_against_SC_2013.csv': 'object', 'District_wise_crimes_committed_against_SC_2014.csv': 'object', 'District_wise_crimes_committed_IPC_2013.csv': 'object', 'District_wise_crimes_committed_against_children_2013.csv': 'object', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'object', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'object', 'District_wise_crimes_committed_against_ST_2013.csv': 'object', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'object', 'District_wise_crimes_committed_against_ST_2014.csv': 'object', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'object'}"
+rape,True,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+kidnapping_and_abduction,True,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+dowry_deaths,False,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+assault_on_women_with_intent_to_outrage_her_modesty,False,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+insult_to_modesty_of_women,False,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+cruelty_by_husband_or_his_relatives,False,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+importation_of_girls,False,"{'District_wise_crimes_committed_against_women_2013.csv': 'int64', 'District_wise_crimes_committed_against_women_2001_2012.csv': 'int64'}"
+18_and_above_and_below_30_years_male,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+18_and_above_and_below_30_years_female,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+18_and_above_and_below_30_years_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+30_and_above_and_below_45_years_male,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+30_and_above_and_below_45_years_female,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+30_and_above_and_below_45_years_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+45_and_above_and_below_60_years_male,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+45_and_above_and_below_60_years_female,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+45_and_above_and_below_60_years_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+60_years_and_above_male,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+60_years_and_above_female,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+60_years_and_above_total,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+total_male,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+total_female,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+total_persons_arrested_by_age_and_sex,False,"{'Persons_arrested_by_sex_and_age_group_SLL_2014.csv': 'int64', 'Persons_arrested_by_sex_and_age_group_IPC_2014.csv': 'int64'}"
+murder,True,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+dacoity,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+robbery,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+arson,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+hurt,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+prevention_of_atrocities_(poa)_act,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+protection_of_civil_rights_(pcr)_act,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+other_crimes_against_scs,False,"{'District_wise_crimes_committed_against_SC_2001_2012.csv': 'int64', 'District_wise_crimes_committed_against_SC_2013.csv': 'int64'}"
+age_18_25_yrs,False,"{'Police_natural_death_and_suicide.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64'}"
+age_25_35_yrs,False,"{'Police_natural_death_and_suicide.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64'}"
+age_35_45_yrs,False,"{'Police_natural_death_and_suicide.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64'}"
+age_45_55_yrs,False,"{'Police_natural_death_and_suicide.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64'}"
+age_above_55_yrs,False,"{'Police_natural_death_and_suicide.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64'}"
+age_total,False,"{'Police_natural_death_and_suicide.csv': 'int64', 'Age_profile_of_police_personnel_killed_on_duty.csv': 'int64'}"
+hg_lower_subordinates_actual_strength,False,{'Home_guards_and_auxilliary_force.csv': 'float64'}
+hg_lower_subordinates_sanctioned_strength,False,{'Home_guards_and_auxilliary_force.csv': 'float64'}
+hg_officers_actual_strength,False,{'Home_guards_and_auxilliary_force.csv': 'float64'}
+hg_officers_sanctioned_strength,False,{'Home_guards_and_auxilliary_force.csv': 'float64'}
+hg_upper_subordinates_actual_strength,False,{'Home_guards_and_auxilliary_force.csv': 'float64'}
+hg_upper_subordinates_sanctioned_strength,False,{'Home_guards_and_auxilliary_force.csv': 'float64'}
+residential_premises_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+residential_premises_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+residential_premises_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+residential_premises_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+highways_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+highways_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+highways_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+highways_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+river_and_sea_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+river_and_sea_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+river_and_sea_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+river_and_sea_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+railways_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+railways_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+railways_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+railways_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+banks_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+banks_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+banks_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+banks_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+commercial_establishments_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+commercial_establishments_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+commercial_establishments_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+commercial_establishments_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+other_places_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+other_places_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+other_places_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+other_places_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+total_-_dacoity,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+total_-_robbery,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+total_-_burglary,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+total_-_theft,False,"{'Crime_by_place_of_occurrence_2001_2012.csv': 'int64', 'Crime_by_place_of_occurrence_2013.csv': 'int64'}"
+custodial_rape,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+custodial_gang_rape,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+custodial_other_rape,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+rape_other_than_custodial,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+rape_gang_rape,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+rape_others,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+attempt_to_commit_rape,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+kidnapping_&_abduction_total,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+kidnaping_&_abduction,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+kidnaping_&_abduction_in_order_to_murder,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+kidnapping_for_ransom,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+kidnapping_&_abduction_of_women_to_compel_her_for_marriage,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+kidnaping_&_abduction_others,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+assault_on_women_with_intent_to_outrage_her_modesty_total,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+sexual_harassment,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+assault_on_women_with_intent_to_disrobe,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+voyeurism,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+stalking,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+others,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+insult_to_the_modesty_of_women_total,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+at_office_premises,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+in_places_related_to_work,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+in_public_transport_system,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+in_other_places,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+importation_of_girls_from_foreign_country,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+attempt_to_commit_murder,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+culpable_homicide_not_amounting_to_murder,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+attempt_to_commit_culpable_homicide,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+grievous_hurt,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+acid_attack,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+attempt_to_acid_attack,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+deaths_caused_with_intent_to_cause_miscarriage,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+causing_miscarriage_without_consent_of_women,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+dacoity_total,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+dacoity_with_murder,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+other_dacoity,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+humantrafficking,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64'}"
+abetment_of_suicides_of_women,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+unnatural_offences,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+other_ipc_crimes,False,"{'District_wise_crimes_committed_against_women_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+"dowry_prohibition_act,_1961",False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+"indecent_representation_of_women_(p)_act,_1986",False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+"commission_of_sati_prevention_act,_1987",False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+"protection_of_women_from_domestic_violence_act,_2005",False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+immoral_traffic_prevention_act,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+itp_under_section_5,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+itp_under_section_6,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+itp_under_section_7,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+itp_under_section_8,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+itp_under_other_sections,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+other_sll_crimes_against_women,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+total_crimes_against_women,False,{'District_wise_crimes_committed_against_women_2014.csv': 'int64'}
+pt_1_3_years,False,{'Period_of_trials_by_courts.csv': 'float64'}
+pt_3_5_years,False,{'Period_of_trials_by_courts.csv': 'float64'}
+pt_5_10_years,False,{'Period_of_trials_by_courts.csv': 'float64'}
+pt_6_12_months,False,{'Period_of_trials_by_courts.csv': 'float64'}
+pt_less_than_6_months,False,{'Period_of_trials_by_courts.csv': 'float64'}
+pt_over_10_years,False,{'Period_of_trials_by_courts.csv': 'float64'}
+pt_total,False,{'Period_of_trials_by_courts.csv': 'float64'}
+police_injured_by_criminals,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_injured_by_riotous_mobs,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_injured_in_accidents,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_injured_in_dacoity_operationsother_raids,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_injured_in_terroristsextremists_operations,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_injured_on_border_duties,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_injured_total_policemen,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_by_criminals,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_by_riotous_mobs,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_in_accidents,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_in_dacoity_operationsother_raids,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_in_terroristsextremists_operations,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_on_border_duties,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+police_killed_total_policemen,False,{'Police_killed_or_injured_on_duty.csv': 'int64'}
+unidentified_dead_bodies_recovered_inquest_conducted,False,{'Unidentified_dead_bodies_recovered_and_inquest_conducted.csv': 'int64'}
+loss_of_property_1_10_crores,False,{'Serious_fraud.csv': 'float64'}
+loss_of_property_10_25_crores,False,{'Serious_fraud.csv': 'float64'}
+loss_of_property_25_50_crores,False,{'Serious_fraud.csv': 'float64'}
+loss_of_property_50_100_crores,False,{'Serious_fraud.csv': 'float64'}
+loss_of_property_above_100_crores,False,{'Serious_fraud.csv': 'float64'}
+place_of_occurrence,False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'object', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'object'}"
+dacoity_(section_395-398_ipc)_-_number_of_cases_registered,False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+dacoity_(section_395-398_ipc)_-_value_of_property_stolen_(in_rupees),False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+"robbery(section_392-394,_397,_398_ipc)_-_number_of_cases_registered",False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+"robbery(section_392-394,_397,_398_ipc)_-_value_of_property_stolen_(in_rupees)",False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+"burglary(section_449-452,_454,_455,_457-460_ipc)_-_number_of_cases_registered",False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+"burglary(section_449-452,_454,_455,_457-460_ipc)_-_value_of_property_stolen_(in_rupees)",False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+theft_(section_379-382_ipc)_-_number_of_cases_registered,False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+theft_(section_379-382_ipc)_-_value_of_property_stolen_(in_rupees),False,"{'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2013.csv': 'int64', 'Case_reported_and_value_of_property_taken_away_by_place_of_occurrence_2001_2012.csv': 'int64'}"
+family_back_ground_homeless,False,{'Juveniles_arrested_Family_background.csv': 'int64'}
+family_back_ground_living_with_guardian,False,{'Juveniles_arrested_Family_background.csv': 'int64'}
+family_back_ground_living_with_parents,False,{'Juveniles_arrested_Family_background.csv': 'int64'}
+family_back_ground_total,False,{'Juveniles_arrested_Family_background.csv': 'int64'}
+sub_group,False,{'Complaints_against_police.csv': 'object'}
+cpa_-_cases_registered,False,{'Complaints_against_police.csv': 'int64'}
+cpa_-_cases_reported_for_dept._action,False,{'Complaints_against_police.csv': 'int64'}
+cpa_-_complaints/cases_declared_false/unsubstantiated,False,{'Complaints_against_police.csv': 'int64'}
+cpa_-_complaints_received/alleged,False,{'Complaints_against_police.csv': 'int64'}
+cpa_-_no_of_departmental_enquiries,False,{'Complaints_against_police.csv': 'int64'}
+cpa_-_no_of_magisterial_enquiries,False,{'Complaints_against_police.csv': 'int64'}
+cpa-_cases_sent_for_trials/charge-sheeted,False,{'Complaints_against_police.csv': 'int64'}
+cpa-_no_of_judicial_enquiries,False,{'Complaints_against_police.csv': 'int64'}
+cpb_-_police_personnel_acquitted,False,{'Complaints_against_police.csv': 'int64'}
+cpb_-_police_personnel_convicted,False,{'Complaints_against_police.csv': 'int64'}
+cpb_-_police_personnel_sent_up_for_trial,False,{'Complaints_against_police.csv': 'int64'}
+cpb_-_police_personnel_trial_completed,False,{'Complaints_against_police.csv': 'int64'}
+cpb-_police_personnel_cases_withdrawn_or_otherwise_disposed_of,False,{'Complaints_against_police.csv': 'int64'}
+cpc_-_police_personnel_cases_trial_completed,False,{'Complaints_against_police.csv': 'int64'}
+cpc_-_police_personnel_cases_withdrawn_or_otherwise_disposed_of,False,{'Complaints_against_police.csv': 'int64'}
+cpc_-_police_personnel_disciplinary_action_initiated,False,{'Complaints_against_police.csv': 'int64'}
+cpc_-_police_personnel_dismissal/removal_from_service,False,{'Complaints_against_police.csv': 'int64'}
+cpc_-_police_personnel_major_punishment_awarded,False,{'Complaints_against_police.csv': 'int64'}
+cpc_-_police_personnel_minor_punishment_awarded,False,{'Complaints_against_police.csv': 'int64'}
+persons_in_custody_during_inv_stage_at_beginning_of_year_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_inv_stage_at_beginning_of_year_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_inv_stage_at_beginning_of_year_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_inv_stage_at_beginning_of_year_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_inv_stage_at_beginning_of_year_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_inv_stage_at_beginning_of_year_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_arrested_during_the_year_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_arrested_during_the_year_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_arrested_during_the_year_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_released_or_freed_before_trial_for_want_of_evidence_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_released_or_freed_before_trial_for_want_of_evidence_fem,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_released_or_freed_before_trial_for_want_of_evidence_tot,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_inv_stage_at_year_end_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_inv_stage_at_year_end_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_inv_stage_at_year_end_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_inv_stage_at_year_end_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_inv_stage_at_year_end_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_inv_stage_at_year_end_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_charge_sheeted_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_charge_sheeted_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_charge_sheeted_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_trial_stage_at_begin_of_year_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_trial_stage_at_begin_of_year_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_trial_stage_at_begin_of_year_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_trial_stage_at_begin_of_year_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_trial_stage_at_begin_of_year_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_trial_stage_at_begin_of_year_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+total_number_of_persons_under_trial_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+total_number_of_persons_under_trial_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+total_number_of_persons_under_trial_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_against_whom_cases_were_compounded_by_courts_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_against_whom_cases_were_compounded_by_courts_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_against_whom_cases_were_compounded_by_courts_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_against_whom_cases_were_withdrawn_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_against_whom_cases_were_withdrawn_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_against_whom_cases_were_withdrawn_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_trial_stage_at_year_end_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_trial_stage_at_year_end_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_in_custody_during_trial_stage_at_year_end_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_trial_stage_at_year_end_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_trial_stage_at_year_end_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_on_bail_during_trial_stage_at_year_end_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_whose_cases_trials_were_completed_during_the_year_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_whose_cases_trials_were_completed_during_the_year_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_whose_cases_trials_were_completed_during_the_year_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_convicted_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_convicted_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_convicted_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_acquitted_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_acquitted_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_acquitted_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_discharged_by_court_male,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_discharged_by_court_female,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+persons_discharged_by_court_total,False,"{'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2014.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2014.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2014.csv': 'int64'}"
+kidnapping_&_abduction,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+kidnapping_&_abduction_in_order_to_murder,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+other_kidnapping,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+making_preparation_and_assembly_for_committing_dacoity,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+criminal_trespass/burglary,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+criminal_trespass_or_burglary,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+house_trespass_&_house_breaking,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+theft,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+auto_theft,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+other_thefts,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+unlawful_assembly,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+riots_communal,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_industrial,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_political,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_caste_conflict,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_sc/sts_vs_non-scs/sts,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_other_caste_conflict,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_agrarian,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_students,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_sectarian,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+riots_others,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+criminal_breach_of_trust,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+cheating,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+forgery,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+counterfeiting,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+counterfeit_offences_related_to_counterfeit_coin,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+counterfeiting_government_stamp,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+counterfeit_currency_&_bank_notes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+counterfeiting_currency_notes/bank_notes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+using_forged_or_counterfeiting_currency/bank_notes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+possession_of_forged_or_counterfeiting_currency/bank_notes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+making_or_possessing_materials_for_forged_currency/bank_notes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+making_or_using_documents_resembling_currency,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+assault_or_use_of_criminal_force_to_women_with_intent_to_disrobe,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+other_assault_on_women,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+insult_to_the_modesty_of_women,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+other_places_related_to_work,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+"places_other_than_231,_232_&_233",False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+causing_death_by_negligence,False,"{'District_wise_crimes_committed_IPC_2014.csv': 'int64', 'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+deaths_due_to_negligent_driving/act,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+deaths_due_to_other_causes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+offences_against_state,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+sedition,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+other_offences_against_state,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+offences_promoting_enmity_between_different_groups,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+promoting_enmity_between_different_groups,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+"imputation,_assertions_prejudicial_to_national_integration",False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+extortion,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+disclosure_of_identity_of_victims,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+incidence_of_rash_driving,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+unnatural_offence,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+total_cognizable_ipc_crimes,False,{'District_wise_crimes_committed_IPC_2014.csv': 'int64'}
+persons_in_custody_or_on_bail_during_the_stage_of_investigation_at_the_beginning_of_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_arrested_during_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_in_custody_or_on_bail_during_the_stage_of_investigation_at_the_end_of_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_in_whose_cases_charge_sheets_were_laid_during_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_under_trial_at_the_beginning_of_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+total_number_of_persons_under_trial_during_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_against_whom_cases_were_compounded_or_withdrawn,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_in_custody_or_on_bail_during_the_stage_of_trial_at_the_end_of_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+persons_in_whose_cases_trials_were_completed_during_the_year,False,"{'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_IPC_crime_2012.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2013.csv': 'int64', 'Person_arrested_and_their_disposal_by_police_and_court_SLL_crime_2012.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2013.csv': 'int64', 'Persons_arrested_and_their_disposal_by_police_and_court_under_crime_against_children_2012.csv': 'int64'}"
+cases_property_recovered,False,"{'Property_stolen_and_recovered.csv': 'int64', 'Property_stolen_and_recovered_nature_of_property.csv': 'int64'}"
+cases_property_stolen,False,"{'Property_stolen_and_recovered.csv': 'int64', 'Property_stolen_and_recovered_nature_of_property.csv': 'int64'}"
+value_of_property_recovered,False,"{'Property_stolen_and_recovered.csv': 'int64', 'Property_stolen_and_recovered_nature_of_property.csv': 'int64'}"
+value_of_property_stolen,False,"{'Property_stolen_and_recovered.csv': 'int64', 'Property_stolen_and_recovered_nature_of_property.csv': 'int64'}"
+k_a_cases_reported,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_10_15_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_15_18_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_18_30_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_30_50_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_above_50_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_total,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_female_upto_10_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_grand_total,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_10_15_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_15_18_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_18_30_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_30_50_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_above_50_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_total,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+k_a_male_upto_10_years,False,{'Specific_purpose_of_kidnapping_and_abduction.csv': 'float64'}
+offenders_arrested,False,{'Persons_arrested_under_recidivism.csv': 'int64'}
+offenders_arrested_for_the_first_time,False,{'Persons_arrested_under_recidivism.csv': 'int64'}
+offenders_conviction_in_the_past_once,False,{'Persons_arrested_under_recidivism.csv': 'int64'}
+offenders_conviction_in_the_past_three_times_or_more,False,{'Persons_arrested_under_recidivism.csv': 'int64'}
+offenders_conviction_in_the_past_twice,False,{'Persons_arrested_under_recidivism.csv': 'int64'}
+"protection_of_civil_rights_act,_1955",False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_attempt_to_commit_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_rape,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_attempt_to_commit_rape,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_assault_on_women_with_intent_to_outrage_her_modesty,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_sexual_harassment,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_assault_on_women_with_intent_to_disrobe,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_voyeurism,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_stalking,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_other_sexual_harassment,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_insult_to_the_modesty_of_women,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_kidnapping_&_abduction_grandtotal,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_kidnaping_&_abduction_total,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_kidnaping_&_abduction_in_order_to_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_kidnapping_for_ransom,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_kidnapping_&_abduction_of_women_to_compel_her_for_marriage,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_other_kidnapping,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_dacoity,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_dacoity_with_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_other_dacoity,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_robbery,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_arson,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_grievous_hurt,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_hurt,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_acid_attack,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_attempt_to_acid_attack,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_riots,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_other_ipc_crimes,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+poa_sc_/_st_(prevention_of_atrocities)_act_only,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+"total_of_sc/st_(prevention_of_atrocities)_act_,1989",False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_attempt_to_commit_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_rape,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_attempt_to_commit_rape,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_assault_on_women_with_intent_to_outrage_her_modesty,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_sexual_harassment,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_assault_on_women_with_intent_to_disrobe,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_voyeurism,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_stalking,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_other_sexual_harassment,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_insult_to_the_modesty_of_women,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_kidnapping_&_abduction,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_kidnaping_&_abduction,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_kidnaping_&_abduction_in_order_to_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_kidnapping_for_ransom,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_kidnapping_&_abduction_of_women_to_compel_her_for_marriage,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_other_kidnapping,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_dacoity,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_dacoity_with_murder,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_other_dacoity,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_robbery,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_arson,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_grievous_hurt,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_hurt,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_acid_attack,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_attempt_to_acid_attack,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_riots,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+ipc_other_ipc_crimes,False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+total_ipc_crimes_against_scs,False,{'District_wise_crimes_committed_against_SC_2014.csv': 'int64'}
+"manual_scavengers_and_construction_of_dry_latrines_(p)_act,_1993",False,"{'District_wise_crimes_committed_against_SC_2014.csv': 'int64', 'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}"
+other_sll_crime_against_scs,False,{'District_wise_crimes_committed_against_SC_2014.csv': 'int64'}
+total_crimes_against_scs,False,{'District_wise_crimes_committed_against_SC_2014.csv': 'int64'}
+cd_accidents,False,{'Custodial_death_others.csv': 'float64'}
+cd_by_mob_attackriots,False,{'Custodial_death_others.csv': 'float64'}
+cd_by_other_criminals,False,{'Custodial_death_others.csv': 'float64'}
+cd_by_suicide,False,{'Custodial_death_others.csv': 'float64'}
+cd_illnessnatural_death,False,{'Custodial_death_others.csv': 'float64'}
+cd_while_escaping_from_custody,False,{'Custodial_death_others.csv': 'float64'}
+pc1_oral_complaints,False,{'Nature_of_complaints_received_by_police.csv': 'float64'}
+pc2_written_complaints,False,{'Nature_of_complaints_received_by_police.csv': 'int64'}
+pc3_distress_call_over_phoneno_100_etc,False,{'Nature_of_complaints_received_by_police.csv': 'float64'}
+pc4_complaints_initiated_sue_motto_by_police,False,{'Nature_of_complaints_received_by_police.csv': 'float64'}
+pc5_total_complaints_sum_of_1_4_above,False,{'Nature_of_complaints_received_by_police.csv': 'int64'}
+pc6_total_complaints_as_recorded_in_gd,False,{'Nature_of_complaints_received_by_police.csv': 'float64'}
+pc7_ipc_cases_registered,False,{'Nature_of_complaints_received_by_police.csv': 'int64'}
+pc8_sll_cases_registered,False,{'Nature_of_complaints_received_by_police.csv': 'int64'}
+attempt_to_murder,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+other_rape,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+kidnapping_and_abduction_of_women_and_girls,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+kidnapping_and_abduction_of_others,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+preparation_and_assembly_for_dacoity,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+burglary,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+other_theft,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+counterfieting,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+hurt/grevious_hurt,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+importation_of_girls_from_foreign_countries,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+total_ipc_crimes,False,"{'District_wise_crimes_committed_IPC_2013.csv': 'int64', 'District_wise_crimes_committed_IPC_2001_2012.csv': 'int64'}"
+victims_of_murder_by_fire_arms,False,{'Use_of_fire_arms_in_murder_cases.csv': 'int64'}
+victims_of_murder_by_licensed_arms,False,{'Use_of_fire_arms_in_murder_cases.csv': 'float64'}
+victims_of_murder_by_un_licensedimprovisedcrudecountry_made_arms_etc,False,{'Use_of_fire_arms_in_murder_cases.csv': 'float64'}
+recidivism_new_delinquent,False,{'Juveniles_arrested_Recidivism.csv': 'int64'}
+recidivism_old_delinquent,False,{'Juveniles_arrested_Recidivism.csv': 'int64'}
+recidivism_total,False,{'Juveniles_arrested_Recidivism.csv': 'int64'}
+cases_acquitted_or_discharged,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_charge_sheets_were_not_laid_but_final_report_submitted,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_chargesheeted,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_compounded_or_withdrawn,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_convicted,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_declared_false_on_account_of_mistake_of_fact_or_of_law,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_investigated_chargesheets+fr_submitted,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_not_investigated_or_in_which_investigation_was_refused,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_pending_investigation_at_year_end,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_pending_investigation_from_previous_year,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_pending_trial_at_year_end,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_pending_trial_from_the_previous_year,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_reported,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_sent_for_trial,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_trials_completed,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_withdrawn_by_the_govt,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cases_withdrawn_by_the_govt_during_investigation,False,{'Cases_under_crime_against_women.csv': 'int64'}
+total_cases_for_trial,False,{'Cases_under_crime_against_women.csv': 'int64'}
+cd_deaths_reported,True,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'int64', 'Custodial_death_during_production.csv': 'int64'}"
+cd_no_of_autopsy_conducted,False,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'float64', 'Custodial_death_during_production.csv': 'float64'}"
+cd_no_of_cases_registered_in_connection_with_deaths,False,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'float64', 'Custodial_death_during_production.csv': 'float64'}"
+cd_no_of_judicial_enquiry_orderedconducted,False,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'float64', 'Custodial_death_during_production.csv': 'float64'}"
+cd_no_of_magisterial_enquiry_orderedconducted,False,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'float64', 'Custodial_death_during_production.csv': 'float64'}"
+cd_no_of_policemen_charge_sheeted,False,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'float64', 'Custodial_death_during_production.csv': 'float64'}"
+cd_no_of_policemen_convicted,False,"{'Custodial_death_person_remanded.csv': 'float64', 'Custodial_death_person_not_remanded.csv': 'float64', 'Custodial_death_during_production.csv': 'float64'}"
+trial_of_violent_crimes_by_courts_by_confession,False,{'Trial_of_violent_crimes_by_courts.csv': 'float64'}
+trial_of_violent_crimes_by_courts_by_trial,False,{'Trial_of_violent_crimes_by_courts.csv': 'float64'}
+trial_of_violent_crimes_by_courts_total,False,{'Trial_of_violent_crimes_by_courts.csv': 'float64'}
+ph_houses_provided_by_department,False,{'Police_housing.csv': 'float64'}
+ph_houses_provided_on_leaserentgpra,False,{'Police_housing.csv': 'float64'}
+ph_sanctioned_strength,False,{'Police_housing.csv': 'int64'}
+ac01_no_of_cases_pending_investigation_from_previous_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac02_no_of_cases_registered_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac03_total_no_of_cases_for_investigation_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac04_no_of_cases_investigated_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac05_no_of_cases_not_investigatedor_in_which_investigation_was_dropped_due_to_any_reason_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac06_no_of_cases_transferred_to_local_police_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac07_no_of_cases_declared_false_mistake_of_fact_or_of_law_or_non_cognizable_or_civil_in_nature,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac08_no_of_cases_in_which_charge_sheets_were_laid_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac09_no_of_cases_pending_departmental_sanction_for_prosecution_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac10_no_of_cases_sent_up_for_trial_and_also_reported_for_departmental_action_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac11_no_of_cases_reported_for_regular_departmental_action_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac12_no_of_cases_reported_for_suitable_action_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac13_no_of_cases_in_which_charge_sheets_were_not_laid_but_final_report_submitted_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac14_no_of_cases_pending_investigation_at_the_end_of_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac15_no_of_cases_resulted_in_recoveries_or_seizures_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac16_value_of_property_recoveredseized_during_the_year_in_rs,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac17_percentage_of_cases_charge_sheeted_to_total_cases_investigated,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac18_no_of_cases_pending_trial_from_the_previous_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac19_no_of_cases_sent_up_for_trial_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac20_total_no_of_cases_for_trial_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac21_no_of_cases_withdrawn_or_other_wise_disposed_off_on_account_of_death_of_the_accused_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac22_no_of_cases_in_which_trials_were_completed_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac23_no_of_cases_convicted_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac24_no_of_cases_acquitted_or_discharged_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac25_no_of_cases_pending_trial_at_the_end_of_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac26_percentage_of_cases_convicted_to_cases_in_which_trials_were_completed_during_the_year,False,{'Anti_corruprion_cases.csv': 'float64'}
+ac27_total_amount_of_fine_imposed_during_the_year_in_rs,False,{'Anti_corruprion_cases.csv': 'float64'}
+infanticid,False,{'District_wise_crimes_committed_against_children_2013.csv': 'int64'}
+other_murder,False,{'District_wise_crimes_committed_against_children_2013.csv': 'int64'}
+foeticide,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+abetment_of_suicide,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+exposure_and_abandonment,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+procuration_of_minor_girls,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+buying_of_girls_for_prostitution,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+selling_of_girls_for_prostitution,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+prohibition_of_child_marriage_act,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+other_crimes,True,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'float64'}"
+total,False,"{'District_wise_crimes_committed_against_children_2013.csv': 'int64', 'District_wise_crimes_committed_against_children_2001_2012.csv': 'int64'}"
+juveniles_acquitted_or_otherwise_disposed_of,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_arrested,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_dealt_with_fine,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_released_on_probation_and_placed_under_the_care_of_fit_institutions,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_released_on_probation_and_placed_under_the_care_of_parent_guardian,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_sent_home_after_advice_or_admonition,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_sent_to_special_home,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+juveniles_whose_cases_pending_disposal,False,{'Juveniles_arrested_and_their_disposal.csv': 'int64'}
+victims_above_50_yrs,True,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Victims_of_rape.csv': 'int64', 'Murder_victim_age_sex.csv': 'float64'}"
+victims_total,True,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Murder_victim_age_sex.csv': 'int64'}"
+victims_upto_10_15_yrs,False,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Murder_victim_age_sex.csv': 'float64'}"
+victims_upto_10_yrs,True,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Victims_of_rape.csv': 'int64', 'Murder_victim_age_sex.csv': 'float64'}"
+victims_upto_15_18_yrs,False,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Murder_victim_age_sex.csv': 'float64'}"
+victims_upto_18_30_yrs,False,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Murder_victim_age_sex.csv': 'float64'}"
+victims_upto_30_50_yrs,False,"{'CH_not_murder_victim_age_sex.csv': 'float64', 'Murder_victim_age_sex.csv': 'float64'}"
+chnamurder_cause_by_terroristextremist,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_casteism,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_class_conflict,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_communalism,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_dowry,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_for_political_reason,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_gain,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_love_affairssexual_relations,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_lunacy,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_other_causes_or_motives,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_personal_vendetta_or_enmity,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_property_dispute,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_total,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+chnamurder_cause_witchcraft,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_by_terroristextremist,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_casteism,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_class_conflict,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_communalism,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_dowry,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_for_political_reason,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_gain,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_love_affairssexual_relations,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_lunacy,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_other_causes_or_motives,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_personal_vendetta_or_enmity,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_property_dispute,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_total,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+murder_cause_witchcraft,False,{'Motive_or_cause_of_murder_and_culpable_homicide_not_amounting_to_murder.csv': 'int64'}
+epc_cases_cases_acquitted,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_cases_cases_convicted,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_cases_cases_pending_for_trial,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_cases_registered,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_cases_trial_completed,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_escapees_re_arrested_from_lockup,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_escapees_re_arrested_from_others,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_fr_submitted,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_awarded_more_than_3_years_imprisonment,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_awarded_upto_3_years_imprisonment,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_cases_acquitted,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_cases_convicted,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_cases_pending_for_trial,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_chargesheeted_for_escape,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_escaped,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_escaped_from_lockup,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_escaped_outside_the_lockup,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_escaped_total,False,{'Escapes_from_police_custody.csv': 'float64'}
+epc_persons_trial_completed,False,{'Escapes_from_police_custody.csv': 'float64'}
+civilians_injured,False,{'Casualties_under_police_firing_and_lathi_charge.csv': 'int64'}
+civilians_killed,False,{'Casualties_under_police_firing_and_lathi_charge.csv': 'int64'}
+no_of_firings,False,{'Casualties_under_police_firing_and_lathi_charge.csv': 'int64'}
+policemen_injured,False,{'Casualties_under_police_firing_and_lathi_charge.csv': 'int64'}
+policemen_killed,False,{'Casualties_under_police_firing_and_lathi_charge.csv': 'int64'}
+Original File Name,False,{'cleaned_file_list.csv': 'object'}
+Cleaned File Name,False,{'cleaned_file_list.csv': 'object'}
+crime,False,"{'Juvenile_apprehended_state_IPC.csv': 'object', 'Juvenile_apprehended_state_SLL.csv': 'object'}"
+boys_7-12_years,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+girls_7-12_years,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+boys_12-16_years,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+girls_12-16_years,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+boys_16-18_years,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+girls_16-18_years,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+total_for_boys_all_age_groups,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+total_for_girls_all_age_groups,False,"{'Juvenile_apprehended_state_IPC.csv': 'int64', 'Juvenile_apprehended_state_SLL.csv': 'int64'}"
+kidnapping_abduction,False,"{'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+other_crimes_against_sts,False,"{'District_wise_crimes_committed_against_ST_2013.csv': 'int64', 'District_wise_crimes_committed_against_ST_2001_2012.csv': 'int64'}"
+auto_theft_coordinated/traced,False,{'Auto_theft.csv': 'float64'}
+auto_theft_recovered,False,{'Auto_theft.csv': 'float64'}
+auto_theft_stolen,False,{'Auto_theft.csv': 'int64'}
+subgroup,False,{'Victims_of_rape.csv': 'object'}
+rape_cases_reported,False,{'Victims_of_rape.csv': 'int64'}
+victims_between_10-14_yrs,False,{'Victims_of_rape.csv': 'int64'}
+victims_between_14-18_yrs,False,{'Victims_of_rape.csv': 'int64'}
+victims_between_18-30_yrs,False,{'Victims_of_rape.csv': 'int64'}
+victims_between_30-50_yrs,False,{'Victims_of_rape.csv': 'int64'}
+victims_of_rape_total,False,{'Victims_of_rape.csv': 'int64'}
+total_ipc_crimes_against_sts,False,{'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}
+other_sll_crime_against_sts,False,{'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}
+total_crimes_against_sts,False,{'District_wise_crimes_committed_against_ST_2014.csv': 'int64'}
+cd_hospitalisation_treatment,False,{'Custodial_death_during_hospitalization_or_treatment.csv': 'int64'}
+rank_all_ranks_total,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_asi_equivalent,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_aspdyspassttcommandant,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_below_hc_and_above_constables,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_constables,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_dgaddl_dg,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_dig,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_head_constables,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_igsplig,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_inspectors_equivalent,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_si_equivalent,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+rank_sspspaddlspcommandant,False,{'Police_strength_actual_and_sanctioned.csv': 'int64'}
+economic_set_up_annual_income_250001_to_50000,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
+economic_set_up_annual_income_upto_rs_25000,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
+economic_set_up_middle_income_from_100001_to_200000,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
+economic_set_up_middle_income_from_50001_to_100000,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
+economic_set_up_total,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
+economic_set_up_upper_income_above_rs_300000,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
+economic_set_up_upper_middle_income_from_200001_to_300000,False,{'Juveniles_arrested_Economic_setup.csv': 'int64'}
