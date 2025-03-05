@@ -1,4 +1,5 @@
 
+**download.py**
 # 1. Crime Data Retrieval from Kaggle (```python download_data.py```)
 
 This script downloads the “Crime in India” dataset from Kaggle and saves it to a specified local directory. It ensures the directory exists before downloading the dataset.
@@ -16,6 +17,17 @@ This script downloads the “Crime in India” dataset from Kaggle and saves it 
 The dataset will be saved in: `./data/raw/raw_data_from_kaggle`
 
 
+**clean_data.py**
+2. Data Cleaning and Preprocessing (python clean_data.py```)
+- The standardize_and_clean function ensures consistent formatting of column names and removes unwanted whitespace in a Pandas DataFrame.
+	- 🚀 Function Overview
+    	- ✔ Standardizes column names by:
+			•	Converting them to lowercase
+			•	Replacing spaces with underscores
+			•	Removing leading and trailing whitespace
+		✔ Cleans all data values by stripping extra spaces.
+
+✔ Cleans all data values by stripping extra spaces.
 
 This script ensures structured data storage for further analysis. 🚀
 
