@@ -2,31 +2,23 @@
 **download.py**
 # 1. Crime Data Retrieval from Kaggle (```python download_data.py```)
 
-This script downloads the “Crime in India” dataset from Kaggle and saves it to a specified local directory. It ensures the directory exists before downloading the dataset.
+	### ✅ Operations Performed by the Script
 
-🚀 How to Use:
-1.	Install dependencies: 
-```pip install kagglehub```
+	| **Operation**                                      | **Status** |
+	|---------------------------------------------------|:---------:|
+	| Define the local directory path                  | ✅ |
+	| Check if the directory exists                    | ✅ |
+	| Create the directory if it doesn't exist         | ✅ |
+	| Print directory creation confirmation            | ✅ |
+	| Download the dataset from Kaggle                 | ✅ |
+	| Save the dataset to the specified local path     | ✅ |
+	| Print dataset download confirmation              | ✅ |
 
-2.	Set up Kaggle API:
-		•	Download kaggle.json from Kaggle (Account Settings > API).
-		•	Place it in ~/.kaggle/ (Linux/macOS) or %HOMEPATH%\.kaggle\ (Windows).
-3.	Run the script: 
-```python download_data.py```
-
-The dataset will be saved in: `./data/raw/raw_data_from_kaggle`
 
 
 **clean_data.py**  
 
-2. Data Cleaning and Preprocessing (python clean_data.py```)
-- The standardize_and_clean function ensures consistent formatting of column names and removes unwanted whitespace in a Pandas DataFrame.
-	- 🚀 Function Overview
-    	- ✔ Standardizes column names by:
-			•	Converting them to lowercase
-			•	Replacing spaces with underscores
-			•	Removing leading and trailing whitespace
-		✔ Cleans all data values by stripping extra spaces.
+2. Data Cleaning and Preprocessing (```python clean_data.py```)
 
 	### ✅  Function -  `standardize_and_clean` 
 
