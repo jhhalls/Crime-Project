@@ -28,6 +28,16 @@ The dataset will be saved in: `./data/raw/raw_data_from_kaggle`
 			•	Removing leading and trailing whitespace
 		✔ Cleans all data values by stripping extra spaces.
 
+	### ✅ Operations Performed by `standardize_and_clean`
+
+	| **Operation**                                  | **Status** |
+	|----------------------------------------------|:---------:|
+	| Remove leading & trailing whitespace from column names | ✅ |
+	| Convert column names to lowercase           | ✅ |
+	| Replace spaces in column names with underscores | ✅ |
+	| Remove leading & trailing whitespace from all data values | ✅ |
+	| Maintain `NaN` values as-is                  | ✅ |
+
 ✔ Cleans all data values by stripping extra spaces.
 
 This script ensures structured data storage for further analysis. 🚀
