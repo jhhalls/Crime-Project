@@ -17,7 +17,8 @@ This script downloads the “Crime in India” dataset from Kaggle and saves it 
 The dataset will be saved in: `./data/raw/raw_data_from_kaggle`
 
 
-**clean_data.py**
+**clean_data.py**  
+
 2. Data Cleaning and Preprocessing (python clean_data.py```)
 - The standardize_and_clean function ensures consistent formatting of column names and removes unwanted whitespace in a Pandas DataFrame.
 	- 🚀 Function Overview
