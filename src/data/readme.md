@@ -2,17 +2,17 @@
 **download.py**
 # 1. Crime Data Retrieval from Kaggle (```python download_data.py```)
 
-	### ✅ Operations Performed by the Script
+### ✅ Function 
 
-	| **Operation**                                      | **Status** |
-	|---------------------------------------------------|:---------:|
-	| Define the local directory path                  | ✅ |
-	| Check if the directory exists                    | ✅ |
-	| Create the directory if it doesn't exist         | ✅ |
-	| Print directory creation confirmation            | ✅ |
-	| Download the dataset from Kaggle                 | ✅ |
-	| Save the dataset to the specified local path     | ✅ |
-	| Print dataset download confirmation              | ✅ |
+| **Operation**                                      | **Status** |
+|---------------------------------------------------|:---------:|
+| Define the local directory path                  | ✅ |
+| Check if the directory exists                    | ✅ |
+| Create the directory if it doesn't exist         | ✅ |
+| Print directory creation confirmation            | ✅ |
+| Download the dataset from Kaggle                 | ✅ |
+| Save the dataset to the specified local path     | ✅ |
+| Print dataset download confirmation              | ✅ |
 
 
 
