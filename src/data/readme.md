@@ -81,3 +81,4 @@ Data cleaning is a crucial step before analysis or modeling.
 	•	Check for typos in categorical data (e.g., “NY” vs. “New York”)
 	•	Merge inconsistent values (df['column'].replace({'N.Y.': 'New York'}))
 
+
