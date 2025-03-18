@@ -82,3 +82,4 @@ Data cleaning is a crucial step before analysis or modeling.
 	•	Merge inconsistent values (df['column'].replace({'N.Y.': 'New York'}))
 
 
+ 
