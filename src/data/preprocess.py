@@ -7,6 +7,7 @@ from src.data.load_data import load_csv_files
 from src.data.load_data import load_csv_files
 from src.data.clean_data import (standardize_and_clean, remove_leading_numbers, remove_duplicates,
                         fix_data_types, save_cleaned_data)
+from scripts.save_to_reports import save_dict_to_json
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
 
@@ -40,11 +41,15 @@ def prepare_cleaned_data(raw_folder, cleaned_folder):
         cleaned_filepath = os.path.join(cleaned_folder, new_filename)
 
         # Save cleaned file
-        df.to_csv(cleaned_filepath, index=False)
+        # df.to_csv(cleaned_filepath, index=False)
 
         # Store cleaned DataFrame in dictionary
         cleaned_data_dict[new_filename] = df
         cleaned_filenames.append(new_filename)
+    
+    # Save cleaned data
+    reports_loc = "/Users/rohit/Downloads/My ML playlist/crime_project/reports/decision_making_reports"
+    save_dict_to_json(cleaned_data_dict, reports_loc)
 
     # Print summary
     print(f"✅ {len(cleaned_filenames)} files cleaned and saved to {cleaned_folder}")

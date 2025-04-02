@@ -18,7 +18,8 @@ clean_data_dict, filenames = prepare_cleaned_data(raw_data_path, cleaned_data_pa
 
 
 save_cleaned_data(clean_data_dict)
-
+print(filenames)
+print(clean_data_dict)
 print("✅ Cleaning and saving completed successfully!")
 
 # Summarize data

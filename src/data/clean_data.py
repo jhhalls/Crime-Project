@@ -3,7 +3,7 @@ import os
 import re
 import logging
 
-def standardize_and_clean(df:pd.Dataframe) ->pd.Dataframe:
+def standardize_and_clean(df:pd.DataFrame) ->pd.DataFrame:
     """
     Standardizes column names to a consistent format (lowercase, underscores instead of spaces)
     and removes leading and trailing whitespace from column names and all elements in a DataFrame.
@@ -46,7 +46,7 @@ def standardize_and_clean(df:pd.Dataframe) ->pd.Dataframe:
 #     cleaned_name = re.sub(r'^\d+_?', '', name).lstrip()  # Remove leading numbers + optional underscore
 #     return f"{cleaned_name}{ext}"  # Reconstruct filename with extension
 
-def remove_duplicates(df):
+def remove_duplicates(df:pd.DataFrame) -> pd.DataFrame:
     """
     Removes duplicate rows from the DataFrame.
     Args:
@@ -60,7 +60,7 @@ def remove_duplicates(df):
     print("\nAfter removing duplicates, the shape of the DataFrame is:", df.shape)
     return df
 
-def fix_data_types(df):
+def fix_data_types(df : pd.DataFrame) -> pd.DataFrame:
 
     """Converts columns to appropriate data types."""
     for col in df.columns:
@@ -74,33 +74,33 @@ def fix_data_types(df):
     return df
 
 
-    """
-    Saves cleaned DataFrames to the specified directory with renamed files
-    (removing leading numbers) and stores the list of cleaned filenames.
+    # """
+    # Saves cleaned DataFrames to the specified directory with renamed files
+    # (removing leading numbers) and stores the list of cleaned filenames.
 
-    Args:
-        data_dict (dict): Dictionary where keys are filenames and values are DataFrames.
-        output_dir (str): Directory to save cleaned data.
-    """
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)  # Create the folder if it doesn't exist
+    # Args:
+    #     data_dict (dict): Dictionary where keys are filenames and values are DataFrames.
+    #     output_dir (str): Directory to save cleaned data.
+    # """
+    # if not os.path.exists(output_dir):
+    #     os.makedirs(output_dir)  # Create the folder if it doesn't exist
 
-    cleaned_filenames = []  # Store new filenames
+    # cleaned_filenames = []  # Store new filenames
 
-    for file_name, df in data_dict.items():
-        new_file_name = remove_leading_numbers(file_name)  # Rename file
-        cleaned_file_path = os.path.join(output_dir, new_file_name)
+    # for file_name, df in data_dict.items():
+    #     new_file_name = remove_leading_numbers(file_name)  # Rename file
+    #     cleaned_file_path = os.path.join(output_dir, new_file_name)
         
-        df.to_csv(cleaned_file_path, index=False)  # Save CSV without index
-        cleaned_filenames.append({"Cleaned File Name": new_file_name})  # Store new filename
-        print(f"✅ Saved cleaned file: {cleaned_file_path}")
+    #     df.to_csv(cleaned_file_path, index=False)  # Save CSV without index
+    #     cleaned_filenames.append({"Cleaned File Name": new_file_name})  # Store new filename
+    #     print(f"✅ Saved cleaned file: {cleaned_file_path}")
 
-    # Save cleaned filenames as a CSV file
-    cleaned_filenames_df = pd.DataFrame(cleaned_filenames)  
-    list_file_path = os.path.join(output_dir, "cleaned_file_list.csv")
-    cleaned_filenames_df.to_csv(list_file_path, index=False)  # Save CSV without index
+    # # Save cleaned filenames as a CSV file
+    # cleaned_filenames_df = pd.DataFrame(cleaned_filenames)  
+    # list_file_path = os.path.join(output_dir, "cleaned_file_list.csv")
+    # cleaned_filenames_df.to_csv(list_file_path, index=False)  # Save CSV without index
 
-    print(f"📜 List of cleaned files saved to: {list_file_path}")
+    # print(f"📜 List of cleaned files saved to: {list_file_path}")
 
 
 # Configure logging (Industry Best Practice)
@@ -112,7 +112,7 @@ def remove_leading_numbers(filename):
     cleaned_name = re.sub(r'^\d+[_-]*', '', name)  # Remove leading numbers and optional separators
     return f"{cleaned_name}{ext}"  # Preserve original extension
 
-def save_cleaned_data(data_dict, output_dir="data/cleaned_data"):
+def save_cleaned_data(data_dict : dict, output_dir="data/cleaned_data"):
     """
     Saves cleaned DataFrames to the specified directory with renamed files
     (removing leading numbers) and stores the list of cleaned filenames as a CSV.
