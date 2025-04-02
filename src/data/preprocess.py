@@ -49,7 +49,7 @@ def prepare_cleaned_data(raw_folder, cleaned_folder):
     
     # Save cleaned data
     reports_loc = "/Users/rohit/Downloads/My ML playlist/crime_project/reports/decision_making_reports"
-    save_dict_to_json(cleaned_data_dict, reports_loc)
+    save_dict_to_json(cleaned_data_dict, reports_loc, "raw_file_dict.json")
 
     # Print summary
     print(f"✅ {len(cleaned_filenames)} files cleaned and saved to {cleaned_folder}")
