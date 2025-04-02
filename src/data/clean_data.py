@@ -3,7 +3,7 @@ import os
 import re
 import logging
 
-def standardize_and_clean(df):
+def standardize_and_clean(df:pd.Dataframe) ->pd.Dataframe:
     """
     Standardizes column names to a consistent format (lowercase, underscores instead of spaces)
     and removes leading and trailing whitespace from column names and all elements in a DataFrame.
